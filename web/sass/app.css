@@ -1,0 +1,57 @@
+/*
+Syntax error: File to import not found or unreadable: foundation.
+              Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass
+        on line 8 of app.scss
+
+3: 
+4: // Comment out this import if you don't want to use normalize
+5: @import "normalize";
+6: 
+7: // Comment out this import if you are customizing you imports below
+8: @import "foundation";
+9: @import "compass/css3";
+10: 
+11: @include font-face(
+12:     "piron", font-files("/fonts/tfpironv2-webfont.eot",
+13:     "/fonts/tfpironv2-webfont.woff",
+
+Backtrace:
+app.scss:8
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:443:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/bin/scss:9:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass\A         on line 8 of app.scss\A \A 3: \A 4: // Comment out this import if you don't want to use normalize\A 5: @import \"normalize\";\A 6: \A 7: // Comment out this import if you are customizing you imports below\A 8: @import \"foundation\";\A 9: @import \"compass/css3\";\A 10: \A 11: @include font-face(\A 12:     \"piron\", font-files(\"/fonts/tfpironv2-webfont.eot\",\A 13:     \"/fonts/tfpironv2-webfont.woff\","; }

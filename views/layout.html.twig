@@ -11,27 +11,27 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
     <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="/css/offcanvas.css" rel="stylesheet" type="text/css" />
+    <script src="/js/foundation/modernizr.foundation.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 </head>
-<body>
+<body id="page" class="off-canvas slide-nav">
 <div class="row">
     {% include 'layout/header.html.twig' %}
+    <a class="show-for-small" id="sidebarButton" href="#sidebar">Menu</a>
 </div>
 <div class="row">
-    <nav id="nav" class="small-3 columns" role="navigation">
+    <section role="complementary" id="sidebar" >
         {% include 'layout/nav.html.twig' %}
-    </nav>
-    <div class="small-9 columns">
+    </section>
+    <section role="main" >
             {% block content %}{# site content here #}{% endblock %}
-    </div>
+    </section>
 </div>
 <footer class="row">{% include 'layout/footer.html.twig' %}</footer>
 </body>
 <script src="/js/vendor/jquery.js"></script>
 <script src="/js/foundation/foundation.js"></script>
-<script>
-    $(document).foundation();
-    var doc = document.documentElement;
-    doc.setAttribute('data-useragent', navigator.userAgent);
-</script>
+<script src="/js/foundation/jquery.offcanvas.js"></script>
+
 </html>

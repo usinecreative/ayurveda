@@ -2,8 +2,11 @@
 <html lang="fr-FR">
 <head>
 	<meta charset="UTF-8" />
+    <title>{% block titre %}{# title here #}{% endblock %}</title>
+    <meta name="Description" content="Ayurveda concept, massage lyon, ayurveda lyon, masseur compétant et passionné vous reçoit pour vous masser et vos informer sur cette technique ancestrale. 25, rue Henri Rolland – 69100 Villeurbanne(Métro ligne A &gt; sortie Charpennes, T2 IUT-FEYSINE &gt; arrêt Charles Hernu, Derrière l’Hôtel Mercure)" />
+    <meta name="Keywords" content="Ayurveda concept, Ayurveda, Ayurveda lyon, bien-etre, bien-etre lyon, massage bien-etre rhone, relaxation, relaxation lyon, massage relaxation rhone, massage relaxant lyon, massage, massage ayurveda lyon, massage rhone, espace bien-etre lyon, pratique traditionnelle inde, technique ayurveda, technique ayurveda lyon, Abyangha, Abyangha rhone, dosha, dosha lyon, Pitta, Pitta rhone, Kapha, Kapha lyon, Vata, Vata rhone, alimentation ayurvedique, alimentation ayurvedique lyon, alimentation rhone, huiles essentielles, huiles essentielles lyon, massage huiles essentielles rhone, medicinal lyon, demo massage, demo massage rhone, demonstration massage, demonstration massage lyon, demonstration massage ayurveda rhone-alpes, salon de massage, salon de massage lyon, Massage, Massage rhone, Ayurveda lyon, massage rhone, technique de massage, technique de massage lyon, massage pierres chaudes, massage pierres chaudes rhone, pierre chaude, pierre chaude lyon" />
+    <!-- google verify -->
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<!-- google verify -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -12,96 +15,17 @@
 </head>
 <body>
 <div class="row">
-    <header>
-        <h1 class="small-2">Ayurveda<br/>Concept</h1>
-        <p>Bien-être - Santé - Longévité</p>
-        <a href="">www.ayurveda-concept.com</a>
-    </header>
+    {% include 'layout/header.html.twig' %}
 </div>
 <div class="row">
-        <nav id="nav" class="small-3 columns" role="navigation">
-            <div class="block">
-            <ul>
-                <li class="icon-presentation">
-                    <h3>Présentation</h3>
-                    <ul>
-                        <li><a href="">La pratique de l'Ayurveda</a></li>
-                        <li><a href="">Identité</a></li>
-                    </ul>
-                </li>
-                <li class="icon-ayurveda">
-                    <h3>Ayurveda</h3>
-                    <ul>
-                        <li><a href="">Connaître mon dosha</a></li>
-                        <li><a href="">Kapha /</a><a href=""> Vata /</a><a href=""> Pitta</a></li>
-                    </ul>
-                </li>
-                <li class="icon-tarifs">
-                    <h3>Tarifs</h3>
-                    <ul>
-                        <li><a href="">Tarifs prestations</a></li>
-                        <li><a href="">Centre relaxation ayurveda</a></li>
-                    </ul>
-                </li>
-                <li class="icon-photos">
-                    <h3>Photos</h3>
-                    <ul>
-                        <li><a href="">Espace ayurvédique</a></li>
-                        <li><a href="">Evénementiels</a></li>
-                    </ul>
-                </li>
-                <li class="icon-contact">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="" target="_blank">Plan d’accès /</a><a href="http://ayurveda-bien-etre.blogspot.com/2010/10/laissez-moi-vos-commentaires.html" target="_blank"> Livre d'or</a></li>
-                        <li><a href="">Laissez moi un message</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+    <nav id="nav" class="small-3 columns" role="navigation">
+        {% include 'layout/nav.html.twig' %}
     </nav>
-
     <div class="small-9 columns">
-        <h1>Pratique de l'<a href="ayurveda.php">Ayurveda</a></h1>
-        <h2><a href="ayurveda.php">A Y U R V E D A</a></h2><br />
-        <img src="images/shiva1.jpg" name="img" width="110" height="127" class="right th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/><span class="italik">Les grands Rishis du Sri-Lanka, ont perçu les lois fondamentales de la nature qui gèrent la physiologie humaine et sont organisés en un système naturel de beauté, de bien-être et de santé. Ils nous léguent un art de vivre tiré des "Véda", textes vieux de plus de 4000 ans utilisés dans l'Inde ancienne comme antique médecine (mythologie indienne, "Samhita Charaka"). Aujourd’hui l’Ayurveda est reconnue par l’Organisation mondiale de la Santé (OMS), dans le monde entier pour son authenticité et son efficacité. Son histoire riche et variée est en grande partie entrelacée avec la mythologie indienne qui prend ses racines dans le « Charaka Samhita » (science ayurvédique) expliquant comment le corps est constitué de cellule  et énumère les 20 organismes microscopiques différents qui peuvent causer les déséquilibres physiologiques.</span><br /><br />
-        <strong>"AYU"</strong> signifie en sanscrit <strong>VIE</strong><br />
-        <strong>"VEDA"</strong> signifie <strong>CONNAISSANCE, SCIENCE</strong><br />
-        <strong>L'<a href="ayurveda.php">AYURVEDA</a></strong> est donc la connaissance de la vie.<br /><br />
-        Le but de l'<strong><a href="ayurveda.php">AYURVEDA</a></strong> est principalement la promotion, le maintien et le prolongement d'une vie saine et équilibrée.<br />
-        L’<a href="ayurveda.php">AYURVEDA</a> intervient dans la  prévention et accompagne le  soin des maladies.<br/>
-        L'objectif de l'<a href="ayurveda.php">AYURVEDA</a> est le maintien de l'équilibre du corps et de l'esprit.<br /><br />
-        <img src="images/inde-le-taj-mahal.gif" width="150" height="146" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>Le concept fondamental de l'<a href="ayurveda.php">AYURVEDA</a> repose sur le fait que l'homme (microcosme) est composé des mêmes composants basiques que constituent notre univers (macrocosme) plus précisément la TERRE, l'EAU, le FEU, l'AIR et l'ESPACE (Ether) appelé : "LE PANCHAMAHABUTHAS"<br />
-        C'est cinq éléments constituant de notre corps, forment les trois énergies "DOSHA" ou "TRIDOSHA"<br />
-        "<a href="vata.htm">VATA</a>, <a href="pitta.htm">PITTA</a>, <a href="kapha">KAPHA</a>" qui représente la nature de l'individu, le "Prakrurti"<br /><br  /><br  />
-        Quand ces éléments dans notre organisme sont en équilibre parfait, alors on atteint une excellente forme physique et une bonne santé. En outre, si le corps commence à perdre sa forme (déséquilibre extérieur) cela est dû nécessairement à un déséquilibre intérieur, le "Vikrurti".<br /><br />
-        <h2>Qu'est ce que le massage ABYANGHA ?</h2><br />
-        <img src="images/inde.gif" width="200" height="200" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>
-        <br  /><br  /><br  />L'Abyangha est un massage holistique réunissant dans sa pratique les dimensions psychique, émotionnelles, énergétiques et physiologiques.<br  /><br  />
-        Il se pratique avec des huiles essentielles chaudes spécifiques à la constitution de l'individu et à pour but d'éliminer les toxines de toute nature, d'augmenter le Prana (énergie), la capacité de mobilité et d'adaptation aux évènements extérieurs...<br  /><br  /><br  /><br  />
-        C'est à la fois un massage de détente et de stimulation puisqu'on travaille sur les centres énergétiques du corps. Le massage est pratiqué avec des huiles essentielles à base de plantes médicinales (7000 variétés dont des écorces, des herbes, arbutes, épices, feuilles, fruits, fleurs) étudiées et élaborées en fonction de leurs apports énergétiques et thérapeutiques sur les différentes parties du corps..<br  /> Elles sont appelées : HUILES AYURVEDIC OIL.<br /><br />
-        Le massage ABYANGHA traditionnel dure 2h30 car le corps entièrement est passé en revue, de même que les centres énergétiques et les chakras. <br  />
-        Les massages AYURVEDIC reste une pratique préconisée outre les problèmes esthétiques pour réguler tous les disfonctionnements d'ordre métabolique et organique.<br/><br />
-        STRESS - FATIGUE - ANXIETE - DEPRIME - PERTE DE VITALITE sont les états dont notre corps a à lutter en permanence. Par les bienfaits des massages Ayurvédic, ces accumulations néfastes sont progressivement expulsées et laissent place à l'APAISEMENT - LA DETENTE - LA VITALITE - LA RELAXATION donc un BIEN ÊTRE GLOBAL.
-        <br /><br />
-        <h2>LES  BIENFAITS CURATIFS DU MASSAGE</h2><br />
-        <img src="images/shema2.jpg" width="110" height="89" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/><br  />La vie moderne est devenue d’une certaine manière très oisive. La plupart des citadins ne font que peu de travail physique. Les exigences de leurs métiers ne leur permettent pas de participer à des activités qui sollicitent leurs muscles. <br  /><br  /><br  />En outre, ils jouissent peu du plein air, d’aliments naturels, de la lumière du soleil : aussi leur organisme connaît-il un fort déséquilibre. Le remède le meilleur, le plus aisé et le plus naturel à tout cela, c’est le massage.<br /><br />
-        Si on ne peut pas masser le corps entièrement, il convient de faire au moins un massage des pieds chaque soir avant le coucher.  La tête doit être massée une ou deux fois par semaine, ou tous les trois jours.<br /><br />
-        Le massage régulier, fait même seulement une ou deux fois par semaine, empêche le développement de nombreux troubles cutanés comme l’eczéma, les cloques,  les croûtes et la séborrhée. Il accroît aussi l’endurance, la patience, la confiance en soi, l’intelligence, la vitalité sexuelle et la beauté physique.<br /><br />
-        <img src="images/shema1.jpg" width="110" height="96" class="right th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/><br />Le massage est utilisé thérapeutiquement pour la  neurasthénie, les maux de tête, l’insomnie, la goutte, la polio, l’obésité, l’arthrite, la tension irrégulière, l’asthme et les troubles mentaux. Il augmente la production de globules blancs et d’anticorps, ce qui procure une résistance contres les virus et maladies causés par l’infection.<br  /><br  /><br  /> Il aide les mécanismes de défense du corps et renforce le système immunitaire.  Le massage accroît aussi l’aptitude du corps à s’adapter à des changements soudains de température et de pression atmosphérique, ainsi qu’à d’autres changements environnementaux.<br /><br />
-        Le massage régulier aide à équilibrer les trois humeurs corporelles, appelées, en Ayurveda, doshas : <a href="vata.htm">VATA</a> (vent), <a href="pitta.htm">PITTA</a> (bile) et <a href="kapha.htm">KAPHA</a> (mucus).<br /><br />
-        Il établit aussi l’équilibre entre les trois qualités fondamentales – sattva, rajas et tamas*.
-        <ul>
-            <li>*SATTVA (<a href="pitta.htm">Pitta</a>) représente la conscience et la connaissance</li>
-            <li>* RAJAS (<a href="vata.htm">Vata</a>) représente l'action et le mouvement</li>
-            <li>* TAMA (<a href="kapha.htm">Kapha</a>) représente l'inertie voir une force qui s'oppose aux deux autres responsable de la jalousie, l'égoïsme,  fainéantise, l'avarie.</li>
-        </ul><br  />
-        <img src="images/kat_ayurveda.gif" width="163" height="110" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>Quand le massage fait l’objet d’une pratique quotidienne, il donne des bienfaits agréables. La chaleur corporelle et la vitalité augmentent à mesure que les systèmes circulatoire et respiratoire s’ouvrent pour fournir de l’oxygène frais et de l’énergie vitale sous forme d’éléments nutritifs. En même temps, les gaz et les toxines sont éliminés de l’organisme.
-
-
+            {% block content %}{# site content here #}{% endblock %}
     </div>
 </div>
-<footer class="row"></footer>
+<footer class="row">{% include 'layout/footer.html.twig' %}</footer>
 </body>
 <script src="/js/vendor/jquery.js"></script>
 <script src="/js/foundation/foundation.js"></script>

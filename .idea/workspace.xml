@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="69" selection-start="2148" selection-end="2148" vertical-scroll-proportion="0.6280087" vertical-offset="53" max-vertical-offset="714">
+            <state line="2" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
+      <file leaf-file-name="_navbar.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sass/partials/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="398" selection-end="398" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1904">
+            <state line="10" column="9" selection-start="241" selection-end="241" vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -44,25 +44,28 @@
       <file leaf-file-name="header.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout/header.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+            <state line="7" column="4" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout/nav.html.twig">
+      <file leaf-file-name="_main.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="799">
-              <folding />
+            <state line="17" column="29" selection-start="405" selection-end="412" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="884">
+              <folding>
+                <element signature="e#812#1071#0" expanded="false" />
+                <element signature="e#1208#1437#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offcanvas.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/offcanvas.css">
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="55" selection-start="1360" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+            <state line="7" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -71,7 +74,7 @@
       <file leaf-file-name="streetart.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/streetart.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="427" selection-end="427" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+            <state line="11" column="6" selection-start="427" selection-end="427" vertical-scroll-proportion="-5.230769" vertical-offset="51" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -95,16 +98,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/layout/footer.html.twig" />
-        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/classes/ayurveda.php" />
-        <option value="$PROJECT_DIR$/web/index.php" />
-        <option value="$PROJECT_DIR$/views/main/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/views/layout/header.html.twig" />
         <option value="$PROJECT_DIR$/views/layout/nav.html.twig" />
-        <option value="$PROJECT_DIR$/web/sass/app.scss" />
         <option value="$PROJECT_DIR$/web/css/offcanvas.css" />
         <option value="$PROJECT_DIR$/views/layout.html.twig" />
+        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_main.scss" />
+        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_navbar.scss" />
+        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_content.scss" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_content.scss" />
+        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_footer.scss" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_footer.scss" />
+        <option value="$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_forms.scss" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_forms.css" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_forms.scss" />
+        <option value="$PROJECT_DIR$/web/sass/app.scss" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_main.scss" />
+        <option value="$PROJECT_DIR$/views/layout/header.html.twig" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_navbar.scss" />
       </list>
     </option>
   </component>
@@ -157,7 +166,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,16 +186,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Twig" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Twig" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.layout.html.twig">
     <configuration default="false" name="layout.html.twig" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ayurveda/views/layout.html.twig">
@@ -270,18 +279,18 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.8405797" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617504" sideWeight="0.8405797" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1594203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1594203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -311,114 +320,117 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_content.scss">
+    <entry file="file://$PROJECT_DIR$/views/layout/nav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2329">
+        <state line="1" column="31" selection-start="41" selection-end="41" vertical-scroll-proportion="0.03057554" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/footer.html.twig">
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+        <state line="56" column="3" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-36.615383" vertical-offset="0" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/streetart.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="427" selection-end="427" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+        <state line="11" column="6" selection-start="427" selection-end="427" vertical-scroll-proportion="-5.230769" vertical-offset="51" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/views/layout.html.twig">
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="539" selection-end="539" vertical-scroll-proportion="0.23561151" vertical-offset="22" max-vertical-offset="714">
+        <state line="90" column="1" selection-start="8" selection-end="1849" vertical-scroll-proportion="3.255319" vertical-offset="0" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/web/app_dev.php">
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state line="131" column="1" selection-start="16" selection-end="2453" vertical-scroll-proportion="1.142232" vertical-offset="1705" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/web/index.php">
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="370" selection-end="393" vertical-scroll-proportion="0.29876977" vertical-offset="0" max-vertical-offset="612">
+        <state line="30" column="3" selection-start="21" selection-end="572" vertical-scroll-proportion="0.9276596" vertical-offset="74" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/views/carte.html.twig">
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/src/Krovitch/StreetArtBundle/Resources/sass/partials/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+        <state line="78" column="0" selection-start="17" selection-end="1461" vertical-scroll-proportion="1.1382979" vertical-offset="791" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/homepage.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_forms.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="15" selection-start="7533" selection-end="7533" vertical-scroll-proportion="1.1618705" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.20913884" vertical-offset="0" max-vertical-offset="569">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="81" selection-start="603" selection-end="603" vertical-scroll-proportion="0.5377856" vertical-offset="51" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/views/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="398" selection-end="398" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1904">
+        <state line="7" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/offcanvas.css">
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="55" selection-start="1360" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.036170214" vertical-offset="0" max-vertical-offset="470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/nav.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="799">
+        <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.036170214" vertical-offset="0" max-vertical-offset="470">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/header.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+        <state line="4" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.14468086" vertical-offset="0" max-vertical-offset="470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="69" selection-start="2148" selection-end="2148" vertical-scroll-proportion="0.6280087" vertical-offset="53" max-vertical-offset="714">
+        <state line="2" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="239" selection-end="239" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="405" selection-end="412" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="884">
+          <folding>
+            <element signature="e#812#1071#0" expanded="false" />
+            <element signature="e#1208#1437#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="241" selection-end="241" vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>

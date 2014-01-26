@@ -1,27 +1,34 @@
 /*
-Syntax error: File to import not found or unreadable: foundation.
-              Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass
-        on line 8 of app.scss
+Syntax error: Undefined variable: "$bleu".
+        on line 45 of _content.scss
 
-3: 
-4: // Comment out this import if you don't want to use normalize
-5: //@import "normalize";
-6: 
-7: // Comment out this import if you are customizing you imports below
-8: @import "foundation";
-9: @import "compass/css3";
-10: 
-11: @include font-face(
-12:     "piron", font-files("/fonts/tfpironv2-webfont.eot",
-13:     "/fonts/tfpironv2-webfont.woff",
+40: 
+41: // misc
+42: span.prix {
+43:   display: inline-block;
+44:   font-weight: bold;
+45:   background: $bleu;
+46:   color: $blanc;
+47:   padding: 3px;
+48:   font-size: 0.8em
+49: }
+50: td.prix {
 
 Backtrace:
-app.scss:8
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:45:in `import'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+_content.scss:45
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -54,4 +61,4 @@ C:/Ruby193/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass\A         on line 8 of app.scss\A \A 3: \A 4: // Comment out this import if you don't want to use normalize\A 5: //@import \"normalize\";\A 6: \A 7: // Comment out this import if you are customizing you imports below\A 8: @import \"foundation\";\A 9: @import \"compass/css3\";\A 10: \A 11: @include font-face(\A 12:     \"piron\", font-files(\"/fonts/tfpironv2-webfont.eot\",\A 13:     \"/fonts/tfpironv2-webfont.woff\","; }
+  content: "Syntax error: Undefined variable: \"$bleu\".\A         on line 45 of _content.scss\A \A 40: \A 41: // misc\A 42: span.prix {\A 43:   display: inline-block;\A 44:   font-weight: bold;\A 45:   background: $bleu;\A 46:   color: $blanc;\A 47:   padding: 3px;\A 48:   font-size: 0.8em\A 49: }\A 50: td.prix {"; }

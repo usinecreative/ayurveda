@@ -31,6 +31,50 @@ class Ayurveda
             return $app['twig']->render('main/homepage.html.twig', array());
         })->bind('homepage');
 
+        $this->silex->get('/ayurveda-lyon', function () use ($app) {
+            return $app['twig']->render('main/ayurveda-lyon.html.twig', array());
+        })->bind('ayurvedalyon');
+
+        $this->silex->get('/demo-massage', function () use ($app) {
+            return $app['twig']->render('main/demo-massage.html.twig', array());
+        })->bind('demomassage');
+
+        $this->silex->get('/espace-ayurveda-lyon', function () use ($app) {
+            return $app['twig']->render('main/espace-ayurveda-lyon.html.twig', array());
+        })->bind('espaceayurvedalyon');
+
+        $this->silex->get('/kapha', function () use ($app) {
+            return $app['twig']->render('main/kapha.html.twig', array());
+        })->bind('kapha');
+
+        $this->silex->get('/vata', function () use ($app) {
+            return $app['twig']->render('main/vata.html.twig', array());
+        })->bind('vata');
+
+        $this->silex->get('/pitta', function () use ($app) {
+            return $app['twig']->render('main/pitta.html.twig', array());
+        })->bind('pitta');
+
+        $this->silex->get('/massage-bienetre', function () use ($app) {
+            return $app['twig']->render('main/massage-bienetre.html.twig', array());
+        })->bind('massagebienetre');
+
+        $this->silex->get('/massage-domicil-lyon', function () use ($app) {
+            return $app['twig']->render('main/massage-domicil-lyon.html.twig', array());
+        })->bind('massagedomicillyon');
+
+        $this->silex->get('/masseur-lyon', function () use ($app) {
+            return $app['twig']->render('main/masseur-lyon.html.twig', array());
+        })->bind('masseurlyon');
+
+        $this->silex->get('/relaxation-lyon', function () use ($app) {
+            return $app['twig']->render('main/relaxation-lyon.html.twig', array());
+        })->bind('relaxationlyon');
+
+        $this->silex->get('/tarif-massage-lyon', function () use ($app) {
+            return $app['twig']->render('main/tarif-massage-lyon.html.twig', array());
+        })->bind('tarifmassagelyon');
+
 
     }
     public function run()

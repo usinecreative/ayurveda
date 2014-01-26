@@ -1,0 +1,69 @@
+{% extends 'layout.html.twig' %}
+
+{% block titre %}Lyon Ayurveda lyon, Bien être, relaxation Villeurbanne : Ayurveda concept{% endblock %}
+{% block content %}
+    <img src="/images/chiva.jpg" class="right th"  alt="masseur, ayurveda, huiles, essentielle, lyon" width="110" height="146" /><h1>De quel type êtes-vous?</h1><br /><br/> <h3>Remplissez ce test, il vous sera utile lors de votre premier rendez-vous.</h3><br />Pour commencer, pensez à votre apparence et votre constitution.
+    Les questions suivantes portent sur votre corps, votre allure, vos habitudes alimentaires...<br/>
+    Parcourez les listes et cochez les cases qui vous correspondent.
+    Cliquez sur envoyer pour connaitre votre profil ayurvédique ou sur effacer pour recommencer le test.
+    <hr />
+    <h2>VATA</h2><br /><form method="post" action="include/resultat-teste.php" enctype="multipart/form-data" id="test">
+    <div><input type="checkbox" name="vata[]"/>Etes-vous trés grand, trés petit ou mince?</div>
+    <div><input type="checkbox" name="vata[]"/>Votre stature est-elle légére ou étroite?</div>
+    <div><input type="checkbox" name="vata[]"/>Etes-vous mince et trouvez-vous difficil de prendre du poids?</div>
+    <div><input type="checkbox" name="vata[]"/>Votre teint est foncé?</div>
+    <div><input type="checkbox" name="vata[]"/>Votre chevelure est normalement dense?</div>
+    <div><input type="checkbox" name="vata[]"/>Vos yeux sont petits, étroits ou creux?</div>
+    <div><input type="checkbox" name="vata[]"/>Vos yeux sont foncés ou gris?</div>
+    <div><input type="checkbox" name="vata[]"/>Vos dents sont saillantes?</div>
+    <div><input type="checkbox" name="vata[]"/>Vos dents sont trés petites ou trés grandes?</div>
+    <div><input type="checkbox" name="vata[]"/>Vous avez peu d'endurance?</div>
+    <div><input type="checkbox" name="vata[]"/>Vous préféré le chaud ou froid?</div>
+    <div><input type="checkbox" name="vata[]"/>Vous êtes souvent constipé?</div>
+    <div><input type="checkbox" name="vata[]"/>Votre voix est faible, basse, rauque ou tremblotante?</div>
+    <div><input type="checkbox" name="vata[]"/>Vous parlez vite?</div>
+    <div><input type="checkbox" name="vata[]"/>Vous préférez les aliments sucrés, salés, lourds ou gras?</div>
+    <div><input type="checkbox" name="vata[]"/>Votre pouls est supérieur a 70 pour un homme, 80 pour une femme?</div>
+    <hr/>
+    <h2>PITTA</h2><br />
+    <div><input type="checkbox" name="PITTA[]"/>Etes-vous de taille ou musculature moyenne?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Etes-vous de poid moyen?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vous transpirez beaucoup?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Votre peau est douce et chaude?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Votre teint est blanc ou rose?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vos cheveux sont fins, roux ou blonds?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vos yeux ont une taille normale?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vos yeux sont bleu, gris ou noisette?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vos dents sont de taille normale et jaunissantes?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vous possédez endurance et force?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vous préféré la fraîcheur à la chaleur?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vos intestins ont tendance à produire des selles molles?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vous parlez d'une manière convaincante et précise?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Vous préférez les aliments sucrés, légers, chauds et amères?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Avez-vous souvent faim et vous vous sentez mal si vous manquez un repas?</div>
+    <div><input type="checkbox" name="PITTA[]"/>Votre pouls est entre 60-70 pour un homme, 70-80 pour une femme?</div>
+    <hr/>
+    <h2>KAPHA</h2><br />
+    <div><input type="checkbox" name="KAPHA[]"/>Etes-vous solide ou un peu gros?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Votre visage est large et plein?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous prenez du poid facilement?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous transpirez peu?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Votre peau est moite et froide?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Votre teint est pâle?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vos cheveux sont épais, lustrés et brun?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vos yeux sont grands?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vos yeux sont bleu ou marron?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vos dents sont blanches, vos gencives solides?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vos dents sont grandes?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous vous déplacez lentement?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous avez une bonne endurance?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous avez une digestion normale?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous avez un appetit régulier et la capacité de sauter un repas?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous parlez lentement?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Vous préférez les aliments secs, sans graisse, sucrés et épicés?</div>
+    <div><input type="checkbox" name="KAPHA[]"/>Votre pouls est inférieur à 60 pour un homme, 70 pour une femme?</div><br />
+    <input type="reset"/>&nbsp;<input type="submit" value="envoyer"/>
+</form>
+{% endblock %}
+
+

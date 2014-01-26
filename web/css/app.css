@@ -6872,6 +6872,335 @@ a.th {
   max-width: 800px;
 }
 
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(0deg);
+  }
+
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Orbit Graceful Loading */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000361}}
+.slideshow-wrapper {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000364}}
+.slideshow-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000371}}
+.slideshow-wrapper ul li,
+.slideshow-wrapper ul li .orbit-caption {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000374}}
+.slideshow-wrapper ul li:first-child {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000377}}
+.slideshow-wrapper .orbit-container {
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000380}}
+.slideshow-wrapper .orbit-container li {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000382}}
+.slideshow-wrapper .orbit-container li .orbit-caption {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\0000388}}
+.preloader {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  border: solid 3px;
+  border-color: #555 #fff;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotate;
+  -o-animation-duration: 1.5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003120}}
+.orbit-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: whitesmoke;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003126}}
+.orbit-container .orbit-slides-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003132}}
+.orbit-container .orbit-slides-container img {
+  display: block;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003134}}
+.orbit-container .orbit-slides-container > * {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003145}}
+.orbit-container .orbit-slides-container > *:first-child {
+  margin-left: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003154}}
+.orbit-container .orbit-slides-container > * .orbit-caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003171}}
+.orbit-container .orbit-slide-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003176}}
+.orbit-container .orbit-slide-number span {
+  font-weight: 700;
+  padding: 0.3125em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003182}}
+.orbit-container .orbit-timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 6px;
+  width: 100px;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003189}}
+.orbit-container .orbit-timer .orbit-progress {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  width: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003199}}
+.orbit-container .orbit-timer > span {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 11px;
+  height: 14px;
+  border: solid 4px #000;
+  border-top: none;
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003213}}
+.orbit-container .orbit-timer.paused > span {
+  right: -6px;
+  top: 9px;
+  width: 11px;
+  height: 14px;
+  border: inset 8px;
+  border-right-style: solid;
+  border-color: transparent transparent transparent #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003225}}
+.orbit-container:hover .orbit-timer > span {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003229}}
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50px;
+  height: 60px;
+  line-height: 50px;
+  color: white;
+  text-indent: -9999px !important;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003241}}
+.orbit-container .orbit-prev:hover,
+.orbit-container .orbit-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003245}}
+.orbit-container .orbit-prev > span,
+.orbit-container .orbit-next > span {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003255}}
+.orbit-container .orbit-prev {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003256}}
+.orbit-container .orbit-prev > span {
+  border-right-style: solid;
+  border-color: transparent;
+  border-right-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003261}}
+.orbit-container .orbit-prev:hover > span {
+  border-right-color: #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003265}}
+.orbit-container .orbit-next {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003266}}
+.orbit-container .orbit-next > span {
+  border-color: transparent;
+  border-left-style: solid;
+  border-left-color: white;
+  left: 50%;
+  margin-left: -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003273}}
+.orbit-container .orbit-next:hover > span {
+  border-left-color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003279}}
+.orbit-bullets {
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003285}}
+.orbit-bullets li {
+  display: block;
+  width: 0.75em;
+  height: 0.75em;
+  background: #999999;
+  float: left;
+  margin-right: 6px;
+  border: solid 1px #555555;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003295}}
+.orbit-bullets li.active {
+  background: #555555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003299}}
+.orbit-bullets li:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003306}}
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003309}}
+.touch .orbit-bullets {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003318}}
+  .touch .orbit-container .orbit-prev,
+  .touch .orbit-container .orbit-next {
+    display: inherit;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003321}}
+  .touch .orbit-bullets {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003328}}
+  .orbit-stack-on-small .orbit-slides-container {
+    height: auto !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003329}}
+  .orbit-stack-on-small .orbit-slides-container > * {
+    position: relative;
+    margin-left: 0% !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/zurb-foundation-4\.3\.2\/scss\/foundation\/components\/_orbit\.scss}line{font-family:\00003336}}
+  .orbit-stack-on-small .orbit-timer,
+  .orbit-stack-on-small .orbit-next,
+  .orbit-stack-on-small .orbit-prev,
+  .orbit-stack-on-small .orbit-bullets {
+    display: none;
+  }
+}
 @font-face {
   font-family: "piron";
   src: url(/fonts/tfpironv2-webfont.eot) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.woff) format('woff'), url(/fonts/tfpironv2-webfont.ttf) format('truetype'), url(/fonts/tfpironv2-webfont.eot?#iefix) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.svg#piron_v2_regular) format('svg');
@@ -6907,7 +7236,7 @@ a.th {
   background-position: 0 -144px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/_web\/ayurveda-concept\/site_v2014\/ayurveda\/web\/sass\/app\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/_web\/ayurveda-concept\/site_v2014\/ayurveda\/web\/sass\/app\.scss}line{font-family:\0000324}}
 html {
   /*variable couleur*/
 }

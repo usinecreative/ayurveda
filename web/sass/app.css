@@ -9,11 +9,11 @@ Syntax error: File to import not found or unreadable: foundation.
 6: 
 7: // Comment out this import if you are customizing you imports below
 8: @import "foundation";
-9: @import "compass/css3";
-10: 
-11: @include font-face(
-12:     "piron", font-files("/fonts/tfpironv2-webfont.eot",
-13:     "/fonts/tfpironv2-webfont.woff",
+9: @import "foundation/components/orbit";
+10: @import "compass/css3";
+11: 
+12: @include font-face(
+13:     "piron", font-files("/fonts/tfpironv2-webfont.eot",
 
 Backtrace:
 app.scss:8
@@ -54,4 +54,4 @@ C:/Ruby193/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass\A         on line 8 of app.scss\A \A 3: \A 4: // Comment out this import if you don't want to use normalize\A 5: //@import \"normalize\";\A 6: \A 7: // Comment out this import if you are customizing you imports below\A 8: @import \"foundation\";\A 9: @import \"compass/css3\";\A 10: \A 11: @include font-face(\A 12:     \"piron\", font-files(\"/fonts/tfpironv2-webfont.eot\",\A 13:     \"/fonts/tfpironv2-webfont.woff\","; }
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load path: D:/_web/ayurveda-concept/site_v2014/ayurveda/web/sass\A         on line 8 of app.scss\A \A 3: \A 4: // Comment out this import if you don't want to use normalize\A 5: //@import \"normalize\";\A 6: \A 7: // Comment out this import if you are customizing you imports below\A 8: @import \"foundation\";\A 9: @import \"foundation/components/orbit\";\A 10: @import \"compass/css3\";\A 11: \A 12: @include font-face(\A 13:     \"piron\", font-files(\"/fonts/tfpironv2-webfont.eot\","; }

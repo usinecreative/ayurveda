@@ -19,7 +19,9 @@ class Ayurveda
         // service twig
         $this->silex->register(new \Silex\Provider\TwigServiceProvider(), array('twig.path' => __DIR__ . '/../views'));
         // service d'url
-        $this->silex->register(new Silex\Provider\UrlGeneratorServiceProvider());
+        $this->silex->register(new \Silex\Provider\UrlGeneratorServiceProvider());
+        // form
+        $this->silex->register(new \Silex\Provider\FormServiceProvider());
     }
 
     public function registerRoutes()
@@ -76,6 +78,30 @@ class Ayurveda
         })->bind('tarifmassagelyon');
 
 
+    }
+    public function form_widget(){
+        $app = $this->silex;
+        $app->match('/form', function (Request $request) use ($app) {
+            // default data
+            $data = array(
+                'name' => 'Your name',
+                'email' => 'Your email',
+            );
+
+            $form = $app['form.factory']->createBuilder('form', $data)
+                ->add('name')
+                ->add('email')
+                ->add('gender', 'choice', array(
+                    'choices' => array(1 => 'male', 2 => 'female'),
+                    'expanded' => true,
+                ))
+                ->getForm();
+
+            $form->handleRequest($request);
+
+            // display the form
+            return $app['twig']->render('main/massage-domicil-lyon.html.twig', array('form' => $form->createView()));
+        });
     }
     public function run()
     {

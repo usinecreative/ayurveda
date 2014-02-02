@@ -6242,3 +6242,22 @@ html nav li a:hover {
   color: #f32a00;
   text-decoration: underline;
 }
+html footer {
+  background: url(../images/Forme.png) no-repeat center 20px #4c371a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  font: normal 1em "piron",Georgia, "Times New Roman", Times, serif;
+}
+html footer h6 {
+  font: normal 1.2em "piron",Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+html footer p {
+  font-size: 0.8em;
+}
+html footer p span {
+  font-size: 0.7em;
+  display: block;
+}

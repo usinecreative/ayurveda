@@ -1,6 +1,9 @@
 ﻿<?php
 use Silex\Provider\FormServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface;
+use Symfony\Component\Validator\Constraints as Assert;
 class Ayurveda
 {
     /** @var \Silex\Application */
@@ -26,9 +29,21 @@ class Ayurveda
         // form
         $this->silex->register(new \Silex\Provider\FormServiceProvider());
         $this->silex->register(new Silex\Provider\TranslationServiceProvider(), array(
-            'translator.messages' => array(),
-        ));
+            'translator.messages' => array(),));
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
+        $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
+        $this->silex->register(new Silex\Provider\SessionServiceProvider()
+        //test en local
+        /*,
+            array('swiftmailer.options'=>array(
+                'host' => 'smtp.gmail.com',
+                'port' => '465',
+                'username' => 'adresse_de_test@gmail.com',
+                'password' => 'mdp',
+                'encryption' => 'ssl',
+                'auth_mode' => 'login'
+            ))*/
+        );
     }
 
     public function registerRoutes()
@@ -68,34 +83,40 @@ class Ayurveda
             return $app['twig']->render('main/massage-bienetre.html.twig', array());
         })->bind('massagebienetre');
 
-        $this->silex->get('/massage-domicil-lyon', function (Request $request) use ($app) {
-            $data = array('Nom' => 'Nom / Prénom','email' => 'Email','message' => 'Votre message');
-            $form = $app['form.factory']->createBuilder('form', $data)
+        $this->silex->match('/massage-domicil-lyon', function (Request $request) use ($app) {
+            $form = $app['form.factory']->createBuilder('form')
                 ->add('Nom')
-                ->add('email')
+                ->add('email', 'email')
                 ->add('message', 'textarea')
+                ->add('Envoyer', 'submit')
                 ->getForm();
 
             $form->handleRequest($request);
 
-            if ($form->isValid()) {
+           if ($form->isValid()) {
 
-                $form->getData();
-                $request = $app['request'];
+               $data=$form->getData();
 
-                $message = \Swift_Message::newInstance()
-                    ->setSubject($request->get($form['Nom']).' : Contact Ayurveda Concept')
-                    ->setFrom(array($request->get($form['email'])))
-                    ->setTo(array('hello@usine-creative.com'))
-                    ->setBody($request->get($form['message']));
+               $errors = $app['validator']->validateValue($data['email'], new Assert\Email());
 
-                $app['mailer']->send($message);
+               if (count($errors) > 0) {
+                   $app['session']->getFlashBag()->add('message', 'Veuillez utiliser un mail valide');
+                   $app->redirect('/index.php/massage-domicil-lyon', 301);
+               } else {
+                   $message = \Swift_Message::newInstance()
+                       ->setSubject($data['Nom'].' : Contact Ayurveda Concept')
+                       ->setFrom(array($data['email']))
+                       ->setTo(array('hello@usine-creative.com'))
+                       ->setBody($data['message']);
 
-                return new Response('Merci pour votre message!', 201);
+                   $app['mailer']->send($message);
+                   $app['session']->getFlashBag()->add('message', 'bien ouéj !');
+                   $app->redirect('/index.php/massage-domicil-lyon', 301);
+               }
             }
-
             // display the form
             return $app['twig']->render('main/massage-domicil-lyon.html.twig', array('form' => $form->createView()));
+
         })->bind('massagedomicillyon');
 
         $this->silex->get('/masseur-lyon', function () use ($app) {

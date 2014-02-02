@@ -18,12 +18,20 @@
     <p>d'autre part permettre à tous de cotoyer de près le Bien Etre dans sa globalité. Donc je vous invite à me contacter
         quelques soit le projet mis en place pour ce type d'animations.</p>
     <h2>Une question? un rendez-vous? Contactez-moi</h2>
-    <fieldset>
-        <form method="get">
-            {{ form_widget(form) }}
-            <input type="submit" name="submit" />
-        </form>
-    </fieldset>
+    {% for message in app.session.getFlashBag.get('message') %}
+        {{ message }}
+    {% endfor %}
+    {{ form_start(form) }}
+        <fieldset>
+            {{ form_label(form.Nom) }}
+            {{ form_widget(form.Nom, { 'attr': {'placeholder': 'Nom / Prénom' } }) }}
+            {{ form_label(form.email) }}
+            {{ form_widget(form.email, { 'attr': {'placeholder': 'Email' } }) }}
+            {{ form_label(form.message) }}
+            {{ form_widget(form.message, { 'attr': {'placeholder': 'Votre message' } }) }}
+            {{ form_widget(form.Envoyer) }}
+        </fieldset>
+    {{ form_end(form) }}
     <a href="https://www.facebook.com/AYURVEDACONCEPT"><img src="/images/Banniere-lien-fb.png" alt="ayurveda concept sur facebook" border="0"/></a>
 {% endblock %}
 

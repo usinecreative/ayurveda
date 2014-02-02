@@ -12,12 +12,14 @@ class Ayurveda
         ));
         $this->registerServices();
         $this->registerRoutes();
+        $this->form_widget();
     }
 
     public function registerServices()
     {
         // service twig
-        $this->silex->register(new \Silex\Provider\TwigServiceProvider(), array('twig.path' => __DIR__ . '/../views'));
+        $this->silex->register(new \Silex\Provider\TwigServiceProvider(), array('twig.path' => __DIR__ . '/../views',
+            'twig.class_path' => __DIR__.'/vendor/twig/lib',));
         // service d'url
         $this->silex->register(new \Silex\Provider\UrlGeneratorServiceProvider());
         // form
@@ -91,10 +93,6 @@ class Ayurveda
             $form = $app['form.factory']->createBuilder('form', $data)
                 ->add('name')
                 ->add('email')
-                ->add('gender', 'choice', array(
-                    'choices' => array(1 => 'male', 2 => 'female'),
-                    'expanded' => true,
-                ))
                 ->getForm();
 
             $form->handleRequest($request);
@@ -103,6 +101,7 @@ class Ayurveda
             return $app['twig']->render('main/massage-domicil-lyon.html.twig', array('form' => $form->createView()));
         });
     }
+
     public function run()
     {
         $this->silex->run();

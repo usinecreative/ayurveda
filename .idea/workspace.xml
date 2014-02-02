@@ -23,17 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="massage-domicil-lyon.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="massage-domicil-lyon.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/main/massage-domicil-lyon.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <element signature="n#style#0;n#input#1;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="20" column="35" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="901">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,25 +35,34 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+            <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ayurveda.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ayurveda.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="40" selection-start="3782" selection-end="3782" vertical-scroll-proportion="-23.846153" vertical-offset="1114" max-vertical-offset="1989">
+            <state line="100" column="11" selection-start="3669" selection-end="3669" vertical-scroll-proportion="0.57194245" vertical-offset="1382" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreetArt.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/classes/StreetArt.php">
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="38" selection-start="2610" selection-end="2610" vertical-scroll-proportion="-45.76923" vertical-offset="0" max-vertical-offset="1632">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -184,38 +187,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -223,11 +194,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.Twig" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.layout.html.twig">
     <configuration default="false" name="layout.html.twig" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ayurveda/views/layout.html.twig">
@@ -312,7 +283,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1871961" sideWeight="0.8405797" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27309564" sideWeight="0.8405797" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -342,9 +313,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617504" sideWeight="0.8405797" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1594203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -371,68 +342,39 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="4" selection-start="6833" selection-end="6833" vertical-scroll-proportion="0.59080964" vertical-offset="1464" max-vertical-offset="1921" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/relaxation-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="147" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.85557985" vertical-offset="289" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/massage-bienetre.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="331" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/homepage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="151" selection-start="498" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="539" selection-end="539" vertical-scroll-proportion="0.6219512" vertical-offset="0" max-vertical-offset="574">
-          <folding />
-        </state>
+        <state line="21" column="3" selection-start="539" selection-end="539" vertical-scroll-proportion="0.6219512" vertical-offset="0" max-vertical-offset="574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/demo-massage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="6804" selection-end="6804" vertical-scroll-proportion="0.7859712" vertical-offset="1892" max-vertical-offset="2448">
-          <folding />
-        </state>
+        <state line="137" column="0" selection-start="6804" selection-end="6804" vertical-scroll-proportion="0.7859712" vertical-offset="1892" max-vertical-offset="2448" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="265" selection-end="265" vertical-scroll-proportion="0.103690684" vertical-offset="77" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="7" selection-start="2886" selection-end="2886" vertical-scroll-proportion="0.7859712" vertical-offset="311" max-vertical-offset="867">
-          <folding />
-        </state>
+        <state line="8" column="38" selection-start="265" selection-end="265" vertical-scroll-proportion="0.103690684" vertical-offset="77" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/silex/silex/src/Silex/Provider/FormServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/silex/silex/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="60" selection-end="60" vertical-scroll-proportion="0.059753954" vertical-offset="0" max-vertical-offset="1173">
+        <state line="2" column="26" selection-start="60" selection-end="60" vertical-scroll-proportion="0.059753954" vertical-offset="0" max-vertical-offset="1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/twig-bridge/Symfony/Bridge/Twig/Extension/FormExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.323741" vertical-offset="736" max-vertical-offset="2261" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/classes/StreetArt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="38" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
@@ -444,44 +386,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/twig-bridge/Symfony/Bridge/Twig/TwigEngine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="140" selection-end="140" vertical-scroll-proportion="0.14938489" vertical-offset="0" max-vertical-offset="569">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7943761" vertical-offset="1590" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-9.753271" vertical-offset="5218" max-vertical-offset="8092">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/streetart/maquettes/site_old/classes/StreetArt.php">
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="38" selection-start="2610" selection-end="2610" vertical-scroll-proportion="-45.76923" vertical-offset="0" max-vertical-offset="1632">
+        <state line="330" column="0" selection-start="9974" selection-end="10068" vertical-scroll-proportion="0.34953272" vertical-offset="5304" max-vertical-offset="21301">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.021582734" vertical-offset="311" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="40" selection-start="3782" selection-end="3782" vertical-scroll-proportion="-23.846153" vertical-offset="1114" max-vertical-offset="1989">
+        <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/massage-domicil-lyon.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#fieldset#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="20" column="35" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="11" selection-start="3669" selection-end="3669" vertical-scroll-proportion="0.57194245" vertical-offset="1382" max-vertical-offset="1972">
+          <folding />
         </state>
       </provider>
     </entry>

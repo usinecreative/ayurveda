@@ -1,5 +1,5 @@
 {% extends 'layout.html.twig' %}
-
+{% import _self as forms %}
 {% block titre %}animations ayurveda lyon, démonstration-massage ayurvédic rhone : Ayurveda concept{% endblock %}
 {% block content %}
     <h1>Contact</h1>
@@ -18,7 +18,10 @@
     <p>d'autre part permettre à tous de cotoyer de près le Bien Etre dans sa globalité. Donc je vous invite à me contacter
         quelques soit le projet mis en place pour ce type d'animations.</p>
     <h2>Une question? un rendez-vous? Contactez-moi</h2>
-    {{ form_widget() }}
+    <form action="#" method="post">
+        {{ form_widget(form) }}
+        <input type="submit" name="submit" />
+    </form>
         <fieldset>
             <form method="post" action="" enctype="multipart/form-data" >
                         <label for="prenom" >Nom/Prénom :</label><br/>
@@ -35,5 +38,10 @@
         </fieldset>
     <a href="https://www.facebook.com/AYURVEDACONCEPT"><img src="/images/Banniere-lien-fb.png" alt="ayurveda concept sur facebook" border="0"/></a>
 {% endblock %}
+
+
+
+
+
 
 

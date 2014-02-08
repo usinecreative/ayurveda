@@ -71,7 +71,7 @@ class Ayurveda
                 ->add('pitta', 'checkbox', array( 'required'  => false, ))
                 ->add('kapha', 'checkbox', array( 'required'  => false, ))
                 ->add('Envoyer', 'submit')
-                ->add('save', 'button')
+                ->add('effacer', 'button')
                 ->getForm();
 
             $form->handleRequest($request);

@@ -55,8 +55,50 @@ class Ayurveda
             return $app['twig']->render('main/homepage.html.twig', array());
         })->bind('homepage');
 
-        $this->silex->get('/ayurveda-lyon', function () use ($app) {
-            return $app['twig']->render('main/ayurveda-lyon.html.twig', array());
+        $this->silex->match('/ayurveda-lyon', function (Request $request) use ($app) {
+            $form = $app['form.factory']->createBuilder('form')
+                ->add('vata', 'choice', array(
+                    'choices' => array('Etes-vous trés grand, trés petit ou mince?', 'Votre stature est-elle légére ou étroite?',
+                    'Etes-vous mince et trouvez-vous difficil de prendre du poids?', 'Votre teint est foncé?', 'Votre chevelure est normalement dense?',
+                    'Vos yeux sont petits, étroits ou creux?','Vos yeux sont foncés ou gris?', 'Vos dents sont saillantes?',
+                    'Vos dents sont trés petites ou trés grandes?', 'Vous avez peu d\'endurance?', 'Vous préféré le chaud ou froid?',
+                    'Vous êtes souvent constipé?', 'Votre voix est faible, basse, rauque ou tremblotante?', 'Vous parlez vite?',
+                    'Vous préférez les aliments sucrés, salés, lourds ou gras?','Votre pouls est supérieur a 70 pour un homme, 80 pour une femme?'),
+                    'multiple'  => true,
+                    'expanded'  => true,
+                    'required'  => false,
+                ))
+                ->add('pitta', 'checkbox', array( 'required'  => false, ))
+                ->add('kapha', 'checkbox', array( 'required'  => false, ))
+                ->add('Envoyer', 'submit')
+                ->add('save', 'button')
+                ->getForm();
+
+            $form->handleRequest($request);
+
+            if ($form->isValid()) {
+
+                $data=$form->getData();
+
+                $errors = $app['validator']->validateValue($data['email'], new Assert\Email());
+
+                if (count($errors) > 0) {
+                    $app['session']->getFlashBag()->add('message', 'Veuillez utiliser un mail valide');
+                    $app->redirect('/index.php/massage-domicil-lyon', 301);
+                } else {
+                    $message = \Swift_Message::newInstance()
+                        ->setSubject($data['Nom'].' : Contact Ayurveda Concept')
+                        ->setFrom(array($data['email']))
+                        ->setTo(array('hello@usine-creative.com'))
+                        ->setBody($data['message']);
+
+                    $app['mailer']->send($message);
+                    $app['session']->getFlashBag()->add('message', 'bien ouéj !');
+                    $app->redirect('/index.php/massage-domicil-lyon', 301);
+                }
+            }
+            // display the form
+            return $app['twig']->render('main/ayurveda-lyon.html.twig', array('form' => $form->createView()));
         })->bind('ayurvedalyon');
 
         $this->silex->get('/demo-massage', function () use ($app) {

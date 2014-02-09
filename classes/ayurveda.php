@@ -55,6 +55,10 @@ class Ayurveda
             return $app['twig']->render('main/homepage.html.twig', array());
         })->bind('homepage');
 
+        $this->silex->get('/ayurveda', function () use ($app) {
+            return $app['twig']->render('main/ayurveda.html.twig', array());
+        })->bind('ayurveda');
+
         $this->silex->match('/ayurveda-lyon', function (Request $request) use ($app) {
             $form = $app['form.factory']->createBuilder('form')
                 ->add('vata', 'choice', array(
@@ -115,6 +119,10 @@ class Ayurveda
                 }
                 if ($kapha>$vata and $kapha>$pitta){
                     return $app->redirect('vata');
+                }
+                if($kapha==0 && $vata==0 && $pitta==0){
+                    $app['session']->getFlashBag()->add('message2', 'Veuillez cocher au minimum une case du questionnaire pour pouvoir connaitre votre dosha.');
+                    $app->redirect('/index.php/ayurveda-lyon', 301);
                 }
                 else{
                     $app['session']->getFlashBag()->add('message', $vata.' case dans la section Vata, '.$pitta.' case dans la section Pitta, '.$kapha.' case dans la section Kapha');

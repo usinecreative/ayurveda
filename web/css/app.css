@@ -6108,6 +6108,86 @@ a.th {
     display: none;
   }
 }
+.reveal-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: black;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 98;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.reveal-modal {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+  left: 50%;
+  z-index: 99;
+  height: auto;
+  margin-left: -40%;
+  width: 80%;
+  background-color: white;
+  padding: 1.25em;
+  border: solid 1px #666666;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  top: 50px;
+}
+.reveal-modal .column,
+.reveal-modal .columns {
+  min-width: 0;
+}
+.reveal-modal > :first-child {
+  margin-top: 0;
+}
+.reveal-modal > :last-child {
+  margin-bottom: 0;
+}
+.reveal-modal .close-reveal-modal {
+  font-size: 1.375em;
+  line-height: 1;
+  position: absolute;
+  top: 0.5em;
+  right: 0.6875em;
+  color: #aaaaaa;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .reveal-modal {
+    padding: 1.875em;
+    top: 6.25em;
+  }
+  .reveal-modal.tiny {
+    margin-left: -15%;
+    width: 30%;
+  }
+  .reveal-modal.small {
+    margin-left: -20%;
+    width: 40%;
+  }
+  .reveal-modal.medium {
+    margin-left: -30%;
+    width: 60%;
+  }
+  .reveal-modal.large {
+    margin-left: -35%;
+    width: 70%;
+  }
+  .reveal-modal.xlarge {
+    margin-left: -47.5%;
+    width: 95%;
+  }
+}
+@media print {
+  .reveal-modal {
+    background: #fff !important;
+  }
+}
 @font-face {
   font-family: "piron";
   src: url(/fonts/tfpironv2-webfont.eot) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.woff) format('woff'), url(/fonts/tfpironv2-webfont.ttf) format('truetype'), url(/fonts/tfpironv2-webfont.eot?#iefix) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.svg#piron_v2_regular) format('svg');
@@ -6154,6 +6234,7 @@ html body h1 {
 }
 html body h1 a {
   color: #fff;
+  text-decoration: none;
 }
 html body h1 a:hover, html body h1 a:focus {
   color: #ffe9cb;
@@ -6207,7 +6288,21 @@ html body header a:hover, html body header a:focus {
 html body h3 {
   color: #302510;
   font: normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
-  margin: 0;
+  margin: 10px 0;
+}
+html a {
+  color: #302510;
+  text-decoration: underline;
+}
+html a:hover, html a:active, html a:focus {
+  text-decoration: none;
+  color: #302510;
+}
+html p, html em, html ul {
+  font-size: 0.9em;
+}
+html hr {
+  border-color: #ffaa4f;
 }
 html a#sidebarButton {
   display: block;
@@ -6241,6 +6336,12 @@ html nav li a {
 html nav li a:hover {
   color: #f32a00;
   text-decoration: underline;
+}
+html .right {
+  margin-left: 1em;
+}
+html .left {
+  margin-right: 1em;
 }
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   float: left;

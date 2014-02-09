@@ -2,15 +2,23 @@
 
 {% block titre %}Lyon Ayurveda lyon, Bien être, relaxation Villeurbanne : Ayurveda concept{% endblock %}
 {% block content %}
-    <img src="/images/chiva.jpg" class="right th"  alt="masseur, ayurveda, huiles, essentielle, lyon" width="110" height="146" /><h1>De quel type êtes-vous?</h1><br /><br/> <h3>Remplissez ce test, il vous sera utile lors de votre premier rendez-vous.</h3><br />Pour commencer, pensez à votre apparence et votre constitution.
-    Les questions suivantes portent sur votre corps, votre allure, vos habitudes alimentaires...<br/>
-    Parcourez les listes et cochez les cases qui vous correspondent.
-    Cliquez sur envoyer pour connaitre votre profil ayurvédique ou sur effacer pour recommencer le test.
+    <h1>De quel type êtes-vous?</h1>
+    <br/><img src="/images/chiva.jpg" class="right th"  alt="masseur, ayurveda, huiles, essentielle, lyon" width="110" height="146" />
+    <h3>Remplissez ce test, il vous sera utile lors de votre premier rendez-vous.</h3>
+    <p>Pour commencer, pensez à votre apparence et votre constitution. Les questions suivantes portent sur votre corps,
+        votre allure, vos habitudes alimentaires...<br/>
+    Parcourez les listes et cochez les cases qui vous correspondent. Cliquez sur envoyer pour connaitre votre profil
+        ayurvédique ou sur effacer pour recommencer le test.</p>
     <hr />
-<!--<form method="get">-->
     {% for message in app.session.getFlashBag.get('message') %}
         <h3>Profil complexe, vous avez coché :</h3>
         {{ message }}
+        <hr/>
+    {% endfor %}
+    {% for message in app.session.getFlashBag.get('message2') %}
+        <h3>Oup's !</h3>
+        {{ message }}
+        <hr/>
     {% endfor %}
     {{ form_start(form) }}
         <h2>Vata</h2>
@@ -19,9 +27,10 @@
         <h2>PITTA</h2>
         {{ form_widget(form.pitta) }}
         <hr/>
-        <h2>KAPHA</h2><br />
+        <h2>KAPHA</h2>
         {{ form_widget(form.kapha) }}
-    {{ form_widget(form.Envoyer) }}
+        {{ form_widget(form.Envoyer) }}
+        {{ form_widget(form.effacer) }}
     {{ form_end(form) }}
 {% endblock %}
 

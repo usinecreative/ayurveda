@@ -68,10 +68,29 @@ class Ayurveda
                     'expanded'  => true,
                     'required'  => false,
                 ))
-                ->add('pitta', 'checkbox', array( 'required'  => false, ))
-                ->add('kapha', 'checkbox', array( 'required'  => false, ))
+                ->add('pitta', 'choice', array(
+                    'choices' => array('Etes-vous de taille ou musculature moyenne?', 'Etes-vous de poid moyen?',
+                        'Vous transpirez beaucoup?', 'Votre peau est douce et chaude?', 'Votre teint est blanc ou rose?',
+                        'Vos cheveux sont fins, roux ou blonds?','Vos yeux ont une taille normale?', 'Vos yeux sont bleu, gris ou noisette?',
+                        'Vos dents sont de taille normale et jaunissantes?', 'Vous possédez endurance et force?', 'Vous préféré la fraîcheur à la chaleur?',
+                        'Vos intestins ont tendance à produire des selles molles?', 'Vous parlez d\'une manière convaincante et précise?', 'Vous préférez les aliments sucrés, légers, chauds et amères?',
+                        'Avez-vous souvent faim et vous vous sentez mal si vous manquez un repas?','Votre pouls est entre 60-70 pour un homme, 70-80 pour une femme?'),
+                    'multiple'  => true,
+                    'expanded'  => true,
+                    'required'  => false, ))
+                ->add('kapha', 'choice', array(
+                    'choices' => array('Etes-vous solide ou un peu gros?', 'Votre visage est large et plein?',
+                        'Vous prenez du poid facilement?', 'Vous transpirez peu?', 'Votre peau est moite et froide?',
+                        'Votre teint est pâle?','Vos cheveux sont épais, lustrés et brun?', 'Vos yeux sont grands?',
+                        'Vos yeux sont bleu ou marron?', 'Vos dents sont blanches, vos gencives solides?', 'Vos dents sont grandes?',
+                        'Vous vous déplacez lentement?', 'Vous avez une bonne endurance?', 'Vous avez une digestion normale?',
+                        'Vous avez un appetit régulier et la capacité de sauter un repas?','Vous parlez lentement?',
+                        'Vous préférez les aliments secs, sans graisse, sucrés et épicés?', 'Votre pouls est inférieur à 60 pour un homme, 70 pour une femme?'),
+                    'multiple'  => true,
+                    'expanded'  => true,
+                    'required'  => false, ))
                 ->add('Envoyer', 'submit')
-                ->add('effacer', 'button')
+                ->add('effacer', 'reset')
                 ->getForm();
 
             $form->handleRequest($request);

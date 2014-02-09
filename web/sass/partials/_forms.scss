@@ -1,1 +1,10 @@
 // forms globals
+
+
+// form "connaitre mon dosha"
+#form_vata, #form_pitta, #form_kapha{
+    input{
+      float: left;
+      margin: 0 10px;
+    }
+}

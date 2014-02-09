@@ -6242,6 +6242,10 @@ html nav li a:hover {
   color: #f32a00;
   text-decoration: underline;
 }
+html #form_vata input, html #form_pitta input, html #form_kapha input {
+  float: left;
+  margin: 0 10px;
+}
 html footer {
   background: url(../images/Forme.png) no-repeat center 20px #4c371a;
   color: #fff;

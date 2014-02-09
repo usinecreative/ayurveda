@@ -7,6 +7,11 @@
     Parcourez les listes et cochez les cases qui vous correspondent.
     Cliquez sur envoyer pour connaitre votre profil ayurvédique ou sur effacer pour recommencer le test.
     <hr />
+<!--<form method="get">-->
+    {% for message in app.session.getFlashBag.get('message') %}
+        <h3>Profil complexe, vous avez coché :</h3>
+        {{ message }}
+    {% endfor %}
     {{ form_start(form) }}
         <h2>Vata</h2>
         {{ form_widget(form.vata) }}

@@ -99,22 +99,28 @@ class Ayurveda
 
                 $data=$form->getData();
 
-                $errors = $app['validator']->validateValue($data['email'], new Assert\Email());
+                $a=$data['vata'];
+                $b=$data['pitta'];
+                $c=$data['kapha'];
 
-                if (count($errors) > 0) {
-                    $app['session']->getFlashBag()->add('message', 'Veuillez utiliser un mail valide');
-                    $app->redirect('/index.php/massage-domicil-lyon', 301);
-                } else {
-                    $message = \Swift_Message::newInstance()
-                        ->setSubject($data['Nom'].' : Contact Ayurveda Concept')
-                        ->setFrom(array($data['email']))
-                        ->setTo(array('hello@usine-creative.com'))
-                        ->setBody($data['message']);
+                $vata=count($a);
+                $pitta=count($b);
+                $kapha=count($c);
 
-                    $app['mailer']->send($message);
-                    $app['session']->getFlashBag()->add('message', 'bien ouéj !');
-                    $app->redirect('/index.php/massage-domicil-lyon', 301);
+                if ($vata>$pitta and $vata>$kapha){
+                    return $app->redirect('vata');
                 }
+                if ($pitta>$vata and $pitta>$kapha){
+                    return $app->redirect('pitta');
+                }
+                if ($kapha>$vata and $kapha>$pitta){
+                    return $app->redirect('vata');
+                }
+                else{
+                    $app['session']->getFlashBag()->add('message', $vata.' case dans la section Vata, '.$pitta.' case dans la section Pitta, '.$kapha.' case dans la section Kapha');
+                    $app->redirect('/index.php/ayurveda-lyon', 301);
+                }
+
             }
             // display the form
             return $app['twig']->render('main/ayurveda-lyon.html.twig', array('form' => $form->createView()));

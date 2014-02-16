@@ -8,6 +8,7 @@
 @import "foundation";
 @import "foundation/components/orbit";
 @import "foundation/components/reveal";
+@import "foundation/components/tabs";
 @import "compass/css3";
 //var table custo
 $table-bg: #f39519;
@@ -16,6 +17,7 @@ $table-border-color: #60441e;
 $table-head-bg: #60441e;
 $table-head-font-color: #fff;
 @import "foundation/components/tables";
+
 
 
 @include font-face(
@@ -31,7 +33,7 @@ $table-head-font-color: #fff;
 @include all-icon-sprites;
 
 html{
-  /*variable couleur*/
+  /*variables*/
 
 
   @import "partials/main";

@@ -35,6 +35,7 @@
 <script src="/js/foundation/foundation.orbit.js"></script>
 <script src="/js/foundation/jquery.offcanvas.js"></script>
 <script src="/js/foundation/foundation.reveal.js"></script>
+<script src="/js/foundation/foundation.tab.js"></script>
 <script>
     $(document).foundation({
         orbit: {
@@ -43,16 +44,14 @@
             pause_on_hover: true,
             animation_speed: 500,
             navigation_arrows: true,
-            bullets: false
+            bullets: false,
         }
     });
-    $("a.reveal-link").click(function(){
-			$('#myModal').foundation('reveal', 'open');
-		});
-    $("a.close-reveal-modal").click(function(){
-			$('#myModal').foundation('reveal', 'close');
-		});
-
+    $("a.reveal-link").click(function(){$('#myModal').foundation('reveal', 'open');});
+    $("a.close-reveal-modal").click(function(){$('#myModal').foundation('reveal', 'close');});
+    $('.tabs').on('toggled', function (event, tab) {
+        console.log(tab);
+      });
 </script>
 </body>
 </html>

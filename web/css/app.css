@@ -6254,13 +6254,27 @@ html body h2 a {
 html body h2 a:hover, html body h2 a:focus {
   color: #ffe9cb;
 }
+html body h3 {
+  color: #302510;
+  font: normal 1em "piron",Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
 html body ul li ul {
   margin-left: 0;
+}
+html body a {
+  color: #302510;
+  text-decoration: underline;
+}
+html body a:hover, html body a:active, html body a:focus {
+  text-decoration: none;
+  color: #302510;
 }
 html body header {
   background: url(/images/Bulles.png) no-repeat center top;
   text-align: center;
   padding-bottom: 30px;
+  margin-top: 5px;
 }
 html body header h1 {
   color: #302510;
@@ -6284,25 +6298,6 @@ html body header a {
 html body header a:hover, html body header a:focus {
   color: #302510;
   text-decoration: underline;
-}
-html body h3 {
-  color: #302510;
-  font: normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
-  margin: 10px 0;
-}
-html a {
-  color: #302510;
-  text-decoration: underline;
-}
-html a:hover, html a:active, html a:focus {
-  text-decoration: none;
-  color: #302510;
-}
-html p, html em, html ul {
-  font-size: 0.9em;
-}
-html hr {
-  border-color: #ffaa4f;
 }
 html a#sidebarButton {
   display: block;
@@ -6332,6 +6327,7 @@ html nav li.icon-presentation, html nav li.icon-ayurveda, html nav li.icon-tarif
 html nav li a {
   color: #f32a00;
   font: normal 0.75em Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
 }
 html nav li a:hover {
   color: #f32a00;
@@ -6342,6 +6338,28 @@ html .right {
 }
 html .left {
   margin-right: 1em;
+}
+html #content h3 {
+  font: normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
+  margin: 10px 0;
+}
+html #content a.facebook {
+  display: block;
+  background: #ff7e00;
+  text-align: center;
+}
+html #content p, html #content em, html #content ul {
+  font-size: 0.9em;
+}
+html #content li {
+  margin-left: 40px;
+}
+html #content hr {
+  border-color: #ffaa4f;
+}
+html #content audio {
+  width: 100%;
+  max-width: 400px;
 }
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   float: left;

@@ -27,11 +27,25 @@ body{
       &:hover, &:focus{color: #ffe9cb;}
     }
   }
+  h3{
+    color:#302510;
+    font:normal 1em "piron",Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+  }
   ul li ul{margin-left: 0}
+  a{
+    color:#302510;
+    text-decoration: underline;
+    &:hover, &:active, &:focus{
+      text-decoration: none;
+      color:#302510;
+    }
+  }
   header{
     background:url(/images/Bulles.png) no-repeat center top;
     text-align: center;
     padding-bottom:30px;
+    margin-top: 5px;
     h1{
       color:#302510;
       display:block;
@@ -57,20 +71,5 @@ body{
       }
     }
   }
-  h3{
-    color:#302510;
-    font:normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
-    margin: 10px 0;
+}
 
-  }
-}
-a{
-  color:#302510;
-  text-decoration: underline;
-  &:hover, &:active, &:focus{
-    text-decoration: none;
-    color:#302510;
-  }
-}
-  p, em, ul{font-size: 0.9em}
-  hr{border-color:#ffaa4f;}

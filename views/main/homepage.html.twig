@@ -2,7 +2,7 @@
 
 {% block titre %}Lyon Ayurveda lyon, Bien être, relaxation Villeurbanne : Ayurveda concept{% endblock %}
 {% block content %}
-    <h1>Le bien-être par l'<a href="ayurveda.php">Ayurveda</a></h1>
+    <h1>Le bien-être par l'<a href="ayurveda">Ayurveda</a></h1>
     <h2>Bienvenue sur le site Ayurveda concept !!</h2>
     <p>Musique : Gayatri Mantra - Pranayam Mantra - 2'37</p>
     <audio controls autoplay="autoplay">
@@ -20,12 +20,8 @@
         expliquant comment le corps est constitué de cellule  et énumère les 20 organismes microscopiques différents qui
         peuvent causer les déséquilibres physiologiques.
     </em>
-    <hr/>
-    <h3>Retrouvez moi sur <a href="https://www.facebook.com/AYURVEDACONCEPT">Facebook</a></h3>
-    <a href="https://www.facebook.com/AYURVEDACONCEPT">
-        <img src="/images/Banniere-lien-fb.png" alt="ayurveda concept sur facebook" />
-    </a>
-    <img src="/images/CARTE-DE-VISITE.jpg" alt="le bien être par l'ayurveda" />
+    {% include 'main/facebook.html.twig' %}
+    {% include 'main/ban.html.twig' %}
 {% endblock %}
 
 

@@ -25,9 +25,10 @@ nav{
     a{
       color:#f32a00;
       font:normal 0.75em Georgia, "Times New Roman", Times, serif;
+      text-decoration: none;
       &:hover{
         color:#f32a00;
-        text-decoration: underline
+        text-decoration: underline;
       }
     }
   }

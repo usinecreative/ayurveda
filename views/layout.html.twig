@@ -13,6 +13,7 @@
 	<![endif]-->
     <link href="/css/app.css" rel="stylesheet" type="text/css" />
     <link href="/css/offcanvas.css" rel="stylesheet" type="text/css" />
+    <link href="/css/responsive-tabs.css" rel="stylesheet" type="text/css" />
     <script src="/js/foundation/modernizr.foundation.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
@@ -35,7 +36,7 @@
 <script src="/js/foundation/foundation.orbit.js"></script>
 <script src="/js/foundation/jquery.offcanvas.js"></script>
 <script src="/js/foundation/foundation.reveal.js"></script>
-<script src="/js/foundation/foundation.tab.js"></script>
+<script src="/js/jquery.responsiveTabs.min.js"></script>
 <script>
     $(document).foundation({
         orbit: {
@@ -47,11 +48,17 @@
             bullets: false,
         }
     });
-    $("a.reveal-link").click(function(){$('#myModal').foundation('reveal', 'open');});
-    $("a.close-reveal-modal").click(function(){$('#myModal').foundation('reveal', 'close');});
-    $('.tabs').on('toggled', function (event, tab) {
-        console.log(tab);
-      });
+    $(document).ready(function () {
+        $('#horizontalTab').responsiveTabs({
+            active: 0,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            rotate: false,
+            setHash: true
+        });
+        $("a.reveal-link").click(function(){$('#myModal').foundation('reveal', 'open');});
+        $("a.close-reveal-modal").click(function(){$('#myModal').foundation('reveal', 'close');});
+    });
 </script>
 </body>
 </html>

@@ -23,28 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ayurveda-lyon.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="2.3461537" vertical-offset="146" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="24" selection-start="1096" selection-end="1096" vertical-scroll-proportion="-10.576923" vertical-offset="507" max-vertical-offset="1377">
+            <state line="18" column="29" selection-start="435" selection-end="441" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sass/partials/_navbar.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="733" selection-end="733" vertical-scroll-proportion="-16.615385" vertical-offset="78" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_content.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_content.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="357">
+            <state line="27" column="3" selection-start="595" selection-end="595" vertical-scroll-proportion="0.7846154" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pitta.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main/pitta.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="271" column="6" selection-start="8296" selection-end="8296" vertical-scroll-proportion="-49.692307" vertical-offset="3315" max-vertical-offset="5117">
               <folding />
             </state>
           </provider>
@@ -54,15 +63,6 @@
         <entry file="file://$PROJECT_DIR$/views/main/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="4" selection-start="1654" selection-end="1693" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="masseur-lyon.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/main/masseur-lyon.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="4" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.7027972" vertical-offset="652" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/main/pitta.html.twig" />
         <option value="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" />
         <option value="$PROJECT_DIR$/views/main/relaxation-lyon.html.twig" />
         <option value="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" />
@@ -103,16 +102,19 @@
         <option value="$PROJECT_DIR$/views/layout/nav.html.twig" />
         <option value="$PROJECT_DIR$/views/layout/header.html.twig" />
         <option value="$PROJECT_DIR$/views/main/ayurveda.html.twig" />
-        <option value="$PROJECT_DIR$/web/sass/app.scss" />
         <option value="$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig" />
         <option value="$PROJECT_DIR$/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/sass/partials/_navbar.scss" />
         <option value="$PROJECT_DIR$/views/main/homepage.html.twig" />
         <option value="$PROJECT_DIR$/views/main/ban.html.twig" />
         <option value="$PROJECT_DIR$/views/main/facebook.html.twig" />
-        <option value="$PROJECT_DIR$/web/sass/partials/_main.scss" />
-        <option value="$PROJECT_DIR$/web/sass/partials/_content.scss" />
         <option value="$PROJECT_DIR$/views/main/masseur-lyon.html.twig" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_main.scss" />
+        <option value="$PROJECT_DIR$/web/sass/app.scss" />
+        <option value="$PROJECT_DIR$/views/main/kapha.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/vata.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/pitta.html.twig" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_content.scss" />
       </list>
     </option>
   </component>
@@ -425,20 +427,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="3791">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="29" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1377">
@@ -585,13 +573,6 @@
         <state line="4" column="60" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="187" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="413" selection-end="413" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/form/Symfony/Component/Form/Extension/Templating/TemplatingExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
@@ -649,28 +630,9 @@
         <state line="4" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="0.11623932" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/ayurveda.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="6353" selection-end="6353" vertical-scroll-proportion="-16.346153" vertical-offset="680" max-vertical-offset="1343" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="305" selection-end="305" vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="2219" selection-end="2219" vertical-scroll-proportion="-3.874126" vertical-offset="3151" max-vertical-offset="3723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14529915" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -689,23 +651,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="24" selection-start="1096" selection-end="1096" vertical-scroll-proportion="-10.576923" vertical-offset="507" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="14" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.37587413" vertical-offset="210" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -726,7 +674,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/masseur-lyon.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="4" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.7027972" vertical-offset="652" max-vertical-offset="1224">
+        <state line="62" column="4" selection-start="3823" selection-end="3823" vertical-scroll-proportion="-15.461538" vertical-offset="652" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="68" selection-start="80" selection-end="87" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/ayurveda.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="9" selection-start="6353" selection-end="6353" vertical-scroll-proportion="1.9318181" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="2.3461537" vertical-offset="146" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="435" selection-end="441" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="480" selection-end="480" vertical-scroll-proportion="-9.769231" vertical-offset="18" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/vata.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="43" selection-start="3072" selection-end="3072" vertical-scroll-proportion="0.6433566" vertical-offset="329" max-vertical-offset="5134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/kapha.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="43" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.31643358" vertical-offset="533" max-vertical-offset="5287">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/pitta.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="6" selection-start="8296" selection-end="8296" vertical-scroll-proportion="-49.692307" vertical-offset="3315" max-vertical-offset="5117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="595" selection-end="595" vertical-scroll-proportion="0.7846154" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>

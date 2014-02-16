@@ -6188,6 +6188,44 @@ a.th {
     background: #fff !important;
   }
 }
+/* Tables */
+table {
+  background: #f39519;
+  margin-bottom: 1.25em;
+  border: solid 1px #60441e;
+}
+table thead,
+table tfoot {
+  background: #60441e;
+  font-weight: bold;
+}
+table thead tr th,
+table thead tr td,
+table tfoot tr th,
+table tfoot tr td {
+  padding: 0.5em 0.625em 0.625em;
+  font-size: 0.875em;
+  color: white;
+  text-align: left;
+}
+table tr th,
+table tr td {
+  padding: 0.5625em 0.625em;
+  font-size: 0.875em;
+  color: #222222;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: #ff7e00;
+}
+table thead tr th,
+table tfoot tr th,
+table tbody tr td,
+table tr td,
+table tfoot tr td {
+  display: table-cell;
+  line-height: 1.125em;
+}
+
 @font-face {
   font-family: "piron";
   src: url(/fonts/tfpironv2-webfont.eot) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.woff) format('woff'), url(/fonts/tfpironv2-webfont.ttf) format('truetype'), url(/fonts/tfpironv2-webfont.eot?#iefix) format('embedded-opentype'), url(/fonts/tfpironv2-webfont.svg#piron_v2_regular) format('svg');
@@ -6246,7 +6284,7 @@ html body h2 {
   padding: 3px 5px;
   color: #fff;
   display: table;
-  font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+  font: normal 1em Georgia, "Times New Roman", Times, serif;
 }
 html body h2 a {
   color: #fff;
@@ -6333,12 +6371,6 @@ html nav li a:hover {
   color: #f32a00;
   text-decoration: underline;
 }
-html .right {
-  margin-left: 1em;
-}
-html .left {
-  margin-right: 1em;
-}
 html #content h3 {
   font: normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
   margin: 10px 0;
@@ -6360,6 +6392,29 @@ html #content hr {
 html #content audio {
   width: 100%;
   max-width: 400px;
+}
+html #content button {
+  border-radius: 5px;
+  background: #664723;
+  border-color: #4e361a;
+  margin-top: 10px;
+  padding: 5px;
+  transition: background 0.5s ease;
+}
+html #content button:hover {
+  background: #785429;
+}
+html #content table {
+  width: 100%;
+}
+html #content table th, html #content table td {
+  width: 50%;
+}
+html .right {
+  margin-left: 1em;
+}
+html .left {
+  margin-right: 1em;
 }
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   float: left;

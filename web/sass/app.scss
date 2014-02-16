@@ -9,6 +9,14 @@
 @import "foundation/components/orbit";
 @import "foundation/components/reveal";
 @import "compass/css3";
+//var table custo
+$table-bg: #f39519;
+$table-even-row-bg: #ff7e00;
+$table-border-color: #60441e;
+$table-head-bg: #60441e;
+$table-head-font-color: #fff;
+@import "foundation/components/tables";
+
 
 @include font-face(
     "piron", font-files("/fonts/tfpironv2-webfont.eot",

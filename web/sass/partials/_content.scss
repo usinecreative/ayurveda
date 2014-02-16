@@ -1,6 +1,4 @@
 // main content
-.right{margin-left: 1em}
-.left{margin-right: 1em}
 #content{
   h3{
     font:normal 0.9em "piron",Georgia, "Times New Roman", Times, serif;
@@ -13,4 +11,23 @@
   li{margin-left: 40px}
   hr{border-color:#ffaa4f;}
   audio{width: 100%; max-width: 400px;}
+  button{
+    border-radius:5px;
+    background: #664723;
+    border-color:#4e361a ;
+    margin-top: 10px;
+    padding: 5px;
+    transition: background 0.5s ease;
+    &:hover{
+      background: #785429;
+    }
+  }
+  table{
+    width: 100%;
+    th, td{width: 50%;}
+  }
 }
+
+//class
+.right{margin-left: 1em}
+.left{margin-right: 1em}

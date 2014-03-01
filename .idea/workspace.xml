@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be47b85-88b9-4344-a39e-2f5ec0608a9d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\.klr\Documents\GitHub\ayurveda\web\sass\app.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.png" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/10.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/11.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/12.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/13.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/14.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/15.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/16.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/17.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/18.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.png" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/3.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/4.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/5.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/6.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/7.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/8.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/9.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sass/partials/_content.scss" afterPath="$PROJECT_DIR$/web/sass/partials/_content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/app.css" afterPath="$PROJECT_DIR$/web/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sass/app.scss" afterPath="$PROJECT_DIR$/web/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/ban.html.twig" afterPath="$PROJECT_DIR$/views/main/ban.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/demo-massage.html.twig" afterPath="$PROJECT_DIR$/views/main/demo-massage.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html.twig" afterPath="$PROJECT_DIR$/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" afterPath="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" afterPath="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.phar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\.klr\Documents\GitHub\ayurveda\upgrade.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ayurveda.iws" />
@@ -72,10 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_content.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_content.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.7094017" vertical-offset="214" max-vertical-offset="850">
+            <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="-15.961538" vertical-offset="214" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2482518" vertical-offset="714" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -388,7 +372,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -460,11 +444,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="75" selection-start="996" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173" />
@@ -733,7 +712,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.7094017" vertical-offset="214" max-vertical-offset="850">
+        <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="-15.961538" vertical-offset="214" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2482518" vertical-offset="714" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>

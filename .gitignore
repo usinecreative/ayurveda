@@ -213,4 +213,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+.idea/
 .idea/workspace.xml
+.idea/ayurveda.iml

@@ -8,7 +8,7 @@ a#sidebarButton{
   height: 40px;
   position: absolute;
   left:15px;
-  top:104px;
+  top:113px;
   border-radius: 30px;
 }
 // canvas menu
@@ -18,7 +18,7 @@ nav{
     line-height: 0;
     padding-left:55px;
     height:48px;
-    li{padding-left:0; height:15px;}
+    li{padding-left:0; height:15px; overflow:hidden;}
     &.icon-presentation, &.icon-ayurveda, &.icon-tarifs, &.icon-photos, &.icon-contact{
       margin-bottom: 30px;
     }

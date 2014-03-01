@@ -6325,6 +6325,7 @@ html body header h1 {
   margin: 0 auto;
   padding-top: 38px;
   text-align: right;
+  width: 170px;
   font: normal 2.1em/1 "piron",Georgia, "Times New Roman", Times, serif;
 }
 html body header p {
@@ -6350,7 +6351,7 @@ html a#sidebarButton {
   height: 40px;
   position: absolute;
   left: 15px;
-  top: 104px;
+  top: 113px;
   border-radius: 30px;
 }
 html nav li {
@@ -6362,6 +6363,7 @@ html nav li {
 html nav li li {
   padding-left: 0;
   height: 15px;
+  overflow: hidden;
 }
 html nav li.icon-presentation, html nav li.icon-ayurveda, html nav li.icon-tarifs, html nav li.icon-photos, html nav li.icon-contact {
   margin-bottom: 30px;
@@ -6405,6 +6407,7 @@ html #content button {
   background: #664723;
   border-color: #4e361a;
   margin-top: 10px;
+  margin-bottom: 0;
   padding: 5px;
   transition: background 0.5s ease;
 }
@@ -6433,10 +6436,32 @@ html .orbit-bullets li {
   cursor: pointer;
   background: none repeat scroll 0 0 #4e361a;
   border: 1px solid #4e361a;
+  margin-bottom: 5px;
 }
 html .orbit-bullets li.active {
   background: none repeat scroll 0 0 #785429;
   border: 1px solid #785429;
+}
+html a.up {
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 15px 15px;
+  display: block;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f36306;
+  padding: 3px 5px;
+  font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+}
+html a.up:hover, html a.up:active {
+  color: #fff;
+  box-shadow: 1px 1px 12px #fff;
+}
+@media screen and (min-width: 750px) {
+  html a.up {
+    display: none;
+  }
 }
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   float: left;
@@ -6447,7 +6472,7 @@ html footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  margin-top: 20px;
+  margin-top: 5px;
   font: normal 1em "piron",Georgia, "Times New Roman", Times, serif;
 }
 html footer h6 {

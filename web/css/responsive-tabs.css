@@ -30,6 +30,7 @@
 #content .r-tabs .r-tabs-panel.r-tabs-state-active {
     display: block;
 }
+#content .r-tabs-anchor a{text-decoration: underline; margin-bottom: 10px;}
 
 /* Accordion responsive breakpoint */
 @media only screen and (max-width: 768px) {

@@ -17,6 +17,7 @@
     background: #664723;
     border-color:#4e361a ;
     margin-top: 10px;
+    margin-bottom: 0;
     padding: 5px;
     transition: background 0.5s ease;
     &:hover{
@@ -38,8 +39,27 @@
   cursor: pointer;
   background: none repeat scroll 0 0 #4e361a;
   border: 1px solid #4e361a;
+  margin-bottom: 5px;
 }
 .orbit-bullets li.active {
   background: none repeat scroll 0 0 #785429;
   border: 1px solid #785429;
+}
+a.up{color:#fff;
+  border-radius:5px;
+  margin:0 15px 15px;
+  display: block;
+  clear:both;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f36306;
+  padding:3px 5px;
+  font:normal 1.2em Georgia, "Times New Roman", Times, serif;
+  &:hover, &:active{
+    color:#fff;
+    box-shadow: 1px 1px 12px #fff;
+  }
+  @media screen and ( min-width: 750px) {
+    display:none
+  }
 }

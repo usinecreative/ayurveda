@@ -3,11 +3,16 @@
 {% block titre %}demonstration massage rhone-alpes, demo pratique aurveda : Ayurveda concept{% endblock %}
 {% block content %}
     <h1>Ev&eacute;nementiels</h1>
-    <a href="https://www.facebook.com/AYURVEDACONCEPT"><img src="/images/Banniere-lien-fb.png" alt="ayurveda concept sur facebook" border="0"/></a>
-    <ul data-orbit>
+    {% include 'main/facebook.html.twig' %}
+    <ul data-orbit data-options="animation:fade;
+                  pause_on_hover:false;
+                  animation_speed:200;
+                  navigation_arrows:false;
+                  bullets:true;
+                  timer: true;">
             <li>
                 <img src="/images/diapo/demo/35.jpg" alt="masseur lyon" />
-                <p>salon du Festival Bolliwood à Ecully</p>
+                <div class="orbit-caption">salon du Festival Bolliwood à Ecully</div>
             </li>
             <li>
                 <img src="/images/diapo/demo/36.jpg" alt="ayurveda lyon" />
@@ -131,7 +136,7 @@
             </li>
         </ul>
 
-    <img src="/images/CARTE-DE-VISITE.jpg" alt="le bien être par l'ayurveda" />
+    {% include 'main/ban.html.twig' %}
 
 {% endblock %}
 

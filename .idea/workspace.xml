@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be47b85-88b9-4344-a39e-2f5ec0608a9d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sass/partials/_main.scss" afterPath="$PROJECT_DIR$/web/sass/partials/_main.scss" />
+      <change type="DELETED" beforePath="C:\Users\.klr\Documents\GitHub\ayurveda\web\sass\app.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.png" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/10.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/11.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/12.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/13.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/14.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/15.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/16.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/17.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/18.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.png" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/3.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/4.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/5.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/6.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/7.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/8.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/diapo/espace-massage/9.jpg" afterPath="$PROJECT_DIR$/web/images/diapo/espace-massage/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sass/partials/_content.scss" afterPath="$PROJECT_DIR$/web/sass/partials/_content.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/app.css" afterPath="$PROJECT_DIR$/web/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sass/app.scss" afterPath="$PROJECT_DIR$/web/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/ban.html.twig" afterPath="$PROJECT_DIR$/views/main/ban.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/demo-massage.html.twig" afterPath="$PROJECT_DIR$/views/main/demo-massage.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html.twig" afterPath="$PROJECT_DIR$/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/relaxation-lyon.html.twig" afterPath="$PROJECT_DIR$/views/main/relaxation-lyon.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" afterPath="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" afterPath="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ayurveda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="1445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_content.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relaxation-lyon.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/main/relaxation-lyon.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.34615386" vertical-offset="142" max-vertical-offset="867">
+            <state line="53" column="7" selection-start="3341" selection-end="3341" vertical-scroll-proportion="-33.76923" vertical-offset="23" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -61,6 +67,33 @@
         <entry file="file://$PROJECT_DIR$/views/main/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="4" selection-start="1698" selection-end="1732" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_content.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.7094017" vertical-offset="214" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo-massage.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main/demo-massage.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="38" selection-start="6883" selection-end="6883" vertical-scroll-proportion="-15.307693" vertical-offset="1948" max-vertical-offset="2533">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="massage-bienetre.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main/massage-bienetre.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="38" selection-start="3156" selection-end="3156" vertical-scroll-proportion="-15.307693" vertical-offset="826" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -84,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" />
-        <option value="$PROJECT_DIR$/views/main/demo-massage.html.twig" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" />
@@ -101,19 +132,21 @@
         <option value="$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig" />
         <option value="$PROJECT_DIR$/web/sass/partials/_navbar.scss" />
         <option value="$PROJECT_DIR$/views/main/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/views/main/ban.html.twig" />
         <option value="$PROJECT_DIR$/views/main/facebook.html.twig" />
         <option value="$PROJECT_DIR$/views/main/masseur-lyon.html.twig" />
         <option value="$PROJECT_DIR$/views/main/kapha.html.twig" />
         <option value="$PROJECT_DIR$/views/main/vata.html.twig" />
         <option value="$PROJECT_DIR$/views/main/pitta.html.twig" />
-        <option value="$PROJECT_DIR$/web/sass/partials/_content.scss" />
-        <option value="$PROJECT_DIR$/web/sass/app.scss" />
-        <option value="$PROJECT_DIR$/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/css/responsive-tabs.css" />
         <option value="$PROJECT_DIR$/web/sass/partials/_main.scss" />
-        <option value="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" />
         <option value="$PROJECT_DIR$/views/main/relaxation-lyon.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/ban.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig" />
+        <option value="$PROJECT_DIR$/web/sass/app.scss" />
+        <option value="$PROJECT_DIR$/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/demo-massage.html.twig" />
+        <option value="$PROJECT_DIR$/views/main/massage-bienetre.html.twig" />
+        <option value="$PROJECT_DIR$/web/sass/partials/_content.scss" />
       </list>
     </option>
   </component>
@@ -249,24 +282,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ayurveda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -301,6 +316,7 @@
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../_workspace_" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -372,7 +388,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,23 +460,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="30" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="60" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="187" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="21" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442" />
@@ -468,9 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="75" selection-start="996" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="40" column="75" selection-start="996" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
@@ -497,9 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="75" selection-start="996" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="40" column="75" selection-start="996" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/ayurveda.php">
@@ -619,11 +614,6 @@
         <state line="3" column="42" selection-start="208" selection-end="208" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/ban.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="86" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/main/masseur-lyon.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="3823" selection-end="3823" vertical-scroll-proportion="-15.461538" vertical-offset="652" max-vertical-offset="1224" />
@@ -650,72 +640,72 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14529915" vertical-offset="0" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/responsive-tabs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="198" selection-end="198" vertical-scroll-proportion="0.16693944" vertical-offset="0" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/ban.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="86" selection-start="4241" selection-end="4241" vertical-scroll-proportion="0.80244756" vertical-offset="612" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/relaxation-lyon.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.34615386" vertical-offset="142" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-21.747492" vertical-offset="13005" max-vertical-offset="109718">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="810" selection-end="810" vertical-scroll-proportion="0.7965812" vertical-offset="27" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/ayurveda-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="205" selection-end="205" vertical-scroll-proportion="0.14529915" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/responsive-tabs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="198" selection-end="198" vertical-scroll-proportion="0.16693944" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.5244755" vertical-offset="40" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/partials/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/tarif-massage-lyon.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="40" selection-start="5995" selection-end="5995" vertical-scroll-proportion="-10.461538" vertical-offset="1224" max-vertical-offset="2091">
+        <state line="15" column="28" selection-start="444" selection-end="444" vertical-scroll-proportion="0.43589744" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main/ayurveda.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="6353" selection-end="6353" vertical-scroll-proportion="0.58391607" vertical-offset="771" max-vertical-offset="1343">
+        <state line="65" column="9" selection-start="6353" selection-end="6353" vertical-scroll-proportion="1.9318181" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="7" selection-start="3341" selection-end="3341" vertical-scroll-proportion="-33.76923" vertical-offset="23" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
@@ -727,9 +717,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/main/relaxation-lyon.html.twig">
+    <entry file="file://$PROJECT_DIR$/views/main/demo-massage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.34615386" vertical-offset="142" max-vertical-offset="867">
+        <state line="138" column="38" selection-start="6883" selection-end="6883" vertical-scroll-proportion="-15.307693" vertical-offset="1948" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/massage-bienetre.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="38" selection-start="3156" selection-end="3156" vertical-scroll-proportion="-15.307693" vertical-offset="826" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sass/partials/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="17" selection-start="803" selection-end="803" vertical-scroll-proportion="0.7094017" vertical-offset="214" max-vertical-offset="850">
           <folding />
         </state>
       </provider>

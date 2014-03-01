@@ -9,6 +9,7 @@
   }
   p, em, ul{font-size: 0.9em}
   li{margin-left: 40px}
+  div.orbit-container li{margin-left: 0}
   hr{border-color:#ffaa4f;}
   audio{width: 100%; max-width: 400px;}
   button{
@@ -31,3 +32,14 @@
 //class
 .right{margin-left: 1em}
 .left{margin-right: 1em}
+.orbit-container img{width: 100%;}
+.orbit-bullets {display: table;}
+.orbit-bullets li {
+  cursor: pointer;
+  background: none repeat scroll 0 0 #4e361a;
+  border: 1px solid #4e361a;
+}
+.orbit-bullets li.active {
+  background: none repeat scroll 0 0 #785429;
+  border: 1px solid #785429;
+}

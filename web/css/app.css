@@ -5920,7 +5920,7 @@ a.th {
   overflow: hidden;
   width: 100%;
   position: relative;
-  background: whitesmoke;
+  background: #f39519;
 }
 .orbit-container .orbit-slides-container {
   list-style: none;
@@ -6390,6 +6390,9 @@ html #content p, html #content em, html #content ul {
 html #content li {
   margin-left: 40px;
 }
+html #content div.orbit-container li {
+  margin-left: 0;
+}
 html #content hr {
   border-color: #ffaa4f;
 }
@@ -6419,6 +6422,21 @@ html .right {
 }
 html .left {
   margin-right: 1em;
+}
+html .orbit-container img {
+  width: 100%;
+}
+html .orbit-bullets {
+  display: table;
+}
+html .orbit-bullets li {
+  cursor: pointer;
+  background: none repeat scroll 0 0 #4e361a;
+  border: 1px solid #4e361a;
+}
+html .orbit-bullets li.active {
+  background: none repeat scroll 0 0 #785429;
+  border: 1px solid #785429;
 }
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   float: left;

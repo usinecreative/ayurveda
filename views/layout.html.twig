@@ -37,24 +37,6 @@
 <script src="/js/foundation/jquery.offcanvas.js"></script>
 <script src="/js/foundation/foundation.reveal.js"></script>
 <script src="/js/jquery.responsiveTabs.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#horizontalTab').responsiveTabs({
-            active: 0,
-            startCollapsed: 'accordion',
-            collapsible: 'accordion',
-            rotate: false,
-            animation: 'slide',
-            setHash: true
-        });
-        $("a.reveal-link").click(function(){$('#myModal').foundation('reveal', 'open');});
-        $("a.close-reveal-modal").click(function(){$('#myModal').foundation('reveal', 'close');});
-        $(".up").click(function(){
-            $("html").animate({ scrollTop: 0 }, "fast");
-            return false;
-        });
-    });
-    $(document).foundation({orbit: { }});
-</script>
+<script src="/js/ayurveda.js"></script>
 </body>
 </html>

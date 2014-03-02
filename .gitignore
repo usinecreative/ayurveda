@@ -1,9 +1,9 @@
-composer.phar
-composer.lock
-
 # IDE
 .idea/*
 # Compass
 .sass-cache
 config.rb
 *.db
+composer.json
+composer.phar
+composer.lock

@@ -4,6 +4,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface;
 use Symfony\Component\Validator\Constraints as Assert;
+
 class Ayurveda
 {
     /** @var \Silex\Application */
@@ -118,7 +119,7 @@ class Ayurveda
                     return $app->redirect('pitta');
                 }
                 if ($kapha>$vata and $kapha>$pitta){
-                    return $app->redirect('vata');
+                    return $app->redirect('kapha');
                 }
                 if($kapha==0 && $vata==0 && $pitta==0){
                     $app['session']->getFlashBag()->add('message2', 'Veuillez cocher au minimum une case du questionnaire pour pouvoir connaitre votre dosha.');

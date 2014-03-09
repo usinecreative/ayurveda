@@ -7,3 +7,4 @@ config.rb
 composer.json
 composer.phar
 composer.lock
+robots.txt

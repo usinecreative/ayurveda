@@ -33,7 +33,15 @@ class Ayurveda
             'translator.messages' => array(),));
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
         $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
-        $this->silex->register(new Silex\Provider\SessionServiceProvider()
+        $this->silex->register(new Silex\Provider\SessionServiceProvider(),
+            array('swiftmailer.options'=>array(
+                'host' => 'ns0.ovh.net',
+                'port' => '587',
+                'username' => 'postmaster@ayurveda-concept.com',
+                'password' => 'i6QuqQ8K',
+                'encryption' => null,
+                'auth_mode' => null
+            ))
         //test en local
         /*,
             array('swiftmailer.options'=>array(
@@ -186,7 +194,7 @@ class Ayurveda
                        ->setBody($data['message']);
 
                    $app['mailer']->send($message);
-                   $app['session']->getFlashBag()->add('message', 'bien ouéj !');
+                   $app['session']->getFlashBag()->add('message', 'Merci pour votre message et à bientôt !');
                    $app->redirect('/index.php/massage-domicil-lyon', 301);
                }
             }

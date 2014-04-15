@@ -34,14 +34,6 @@ class Ayurveda
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
         $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
         $this->silex->register(new Silex\Provider\SessionServiceProvider(),
-            array('swiftmailer.options'=>array(
-                'host' => 'ns0.ovh.net',
-                'port' => '587',
-                'username' => 'postmaster@ayurveda-concept.com',
-                'password' => 'i6QuqQ8K',
-                'encryption' => null,
-                'auth_mode' => null
-            ))
         //test en local
         /*,
             array('swiftmailer.options'=>array(
@@ -131,11 +123,9 @@ class Ayurveda
                 }
                 if($kapha==0 && $vata==0 && $pitta==0){
                     $app['session']->getFlashBag()->add('message2', 'Veuillez cocher au minimum une case du questionnaire pour pouvoir connaitre votre dosha.');
-                    $app->redirect('/index.php/ayurveda-lyon', 301);
                 }
                 else{
                     $app['session']->getFlashBag()->add('message', $vata.' case dans la section Vata, '.$pitta.' case dans la section Pitta, '.$kapha.' case dans la section Kapha');
-                    $app->redirect('/index.php/ayurveda-lyon', 301);
                 }
 
             }
@@ -185,7 +175,6 @@ class Ayurveda
 
                if (count($errors) > 0) {
                    $app['session']->getFlashBag()->add('message', 'Veuillez utiliser un mail valide');
-                   $app->redirect('/index.php/massage-domicil-lyon', 301);
                } else {
                    $message = \Swift_Message::newInstance()
                        ->setSubject($data['Nom'].' : Contact Ayurveda Concept')
@@ -195,7 +184,7 @@ class Ayurveda
 
                    $app['mailer']->send($message);
                    $app['session']->getFlashBag()->add('message', 'Merci pour votre message et à bientôt !');
-                   $app->redirect('/index.php/massage-domicil-lyon', 301);
+                   return $app->redirect('/index.php/massage-domicil-lyon', 301);
                }
             }
             // display the form

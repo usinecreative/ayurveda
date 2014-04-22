@@ -33,7 +33,7 @@ class Ayurveda
             'translator.messages' => array(),));
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
         $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
-        $this->silex->register(new Silex\Provider\SessionServiceProvider(),
+        $this->silex->register(new Silex\Provider\SessionServiceProvider()
         //test en local
         /*,
             array('swiftmailer.options'=>array(
@@ -184,7 +184,7 @@ class Ayurveda
 
                    $app['mailer']->send($message);
                    $app['session']->getFlashBag()->add('message', 'Merci pour votre message et à bientôt !');
-                   return $app->redirect('/index.php/massage-domicil-lyon', 301);
+                   return $app->redirect('/massage-domicil-lyon', 301);
                }
             }
             // display the form
@@ -204,7 +204,21 @@ class Ayurveda
             return $app['twig']->render('main/tarif-massage-lyon.html.twig', array());
         })->bind('tarifmassagelyon');
 
+       $this->silex->get('/error', function () use ($app) {
+            return $app['twig']->render('main/error.html.twig', array());
+        })->bind('error');
 
+       $this->silex->error(function (\Exception $e, $code) {
+            switch ($code) {
+                case 404:
+                    $this->silex['session']->getFlashBag()->add('message', 'Page Introuvable.');
+                    return new Response( $this->silex['twig']->render('main/error.html.twig'), 404);
+                    break;
+                default:
+                    $this->silex['session']->getFlashBag()->add('message', 'Désolé, une erreure s\'est produite.');
+                    return new Response( $this->silex['twig']->render('main/error.html.twig'), 500);
+            }
+       });
     }
 
     public function run()

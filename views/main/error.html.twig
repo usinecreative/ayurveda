@@ -1,0 +1,13 @@
+{% extends 'layout.html.twig' %}
+
+{% block titre %}Lyon Ayurveda lyon, Bien être, relaxation Villeurbanne : Ayurveda concept{% endblock %}
+{% block content %}
+    {% for message in app.session.getFlashBag.get('message') %}
+        <h1>Oup's !</h1>
+        <p>{{ message }}</p>
+        <hr/>
+        <p>Utilisez le menu à gauche pour naviguer sur le site.</p>
+    {% endfor %}
+{% endblock %}
+
+

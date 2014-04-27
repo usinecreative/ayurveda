@@ -4,7 +4,7 @@ $(document).ready(function () {
             startCollapsed: 'accordion',
             collapsible: 'accordion',
             rotate: false,
-            animation: 'slide',
+            animation: 'fade',
             setHash: true
         });
         $("a.reveal-link").click(function(){$('#myModal').foundation('reveal', 'open');});

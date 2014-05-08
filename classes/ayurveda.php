@@ -33,17 +33,9 @@ class Ayurveda
             'translator.messages' => array(),));
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
         $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
-        $this->silex->register(new Silex\Provider\SessionServiceProvider()
-        //test en local
-        /*,
-            array('swiftmailer.options'=>array(
-                'host' => 'smtp.gmail.com',
-                'port' => '465',
-                'username' => 'adresse_de_test@gmail.com',
-                'password' => 'mdp',
-                'encryption' => 'ssl',
-                'auth_mode' => 'login'
-            ))*/
+        $this->silex->register(new Silex\Provider\SessionServiceProvider(),
+            //test local
+            ))
         );
     }
 
@@ -153,6 +145,14 @@ class Ayurveda
             return $app['twig']->render('main/pitta.html.twig', array());
         })->bind('pitta');
 
+        $this->silex->get('/formation-ayurveda', function () use ($app) {
+            return $app['twig']->render('main/formation-ayurveda.html.twig', array());
+        })->bind('formation-ayurveda');
+
+        $this->silex->get('/calendrier-formation', function () use ($app) {
+            return $app['twig']->render('main/calendrier-formation.html.twig', array());
+        })->bind('calendrier-formation');
+
         $this->silex->get('/massage-bienetre', function () use ($app) {
             return $app['twig']->render('main/massage-bienetre.html.twig', array());
         })->bind('massagebienetre');
@@ -179,7 +179,7 @@ class Ayurveda
                    $message = \Swift_Message::newInstance()
                        ->setSubject($data['Nom'].' : Contact Ayurveda Concept')
                        ->setFrom(array($data['email']))
-                       ->setTo(array('hello@usine-creative.com'))
+                       ->setTo(array('ayurveda.concept@gmail.com'))
                        ->setBody($data['message']);
 
                    $app['mailer']->send($message);
@@ -205,7 +205,7 @@ class Ayurveda
         })->bind('tarifmassagelyon');
 
        $this->silex->get('/error', function () use ($app) {
-            return $app['twig']->render('main/error.html.twig', array());
+           return $app['twig']->render('main/error.html.twig', array());
         })->bind('error');
 
        $this->silex->error(function (\Exception $e, $code) {
@@ -215,7 +215,7 @@ class Ayurveda
                     return new Response( $this->silex['twig']->render('main/error.html.twig'), 404);
                     break;
                 default:
-                    $this->silex['session']->getFlashBag()->add('message', 'Désolé, une erreure s\'est produite.');
+                    $this->silex['session']->getFlashBag()->add('message', 'Erreur interne');
                     return new Response( $this->silex['twig']->render('main/error.html.twig'), 500);
             }
        });

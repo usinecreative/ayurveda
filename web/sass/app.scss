@@ -35,11 +35,11 @@ $table-head-font-color: #fff;
 
 html{
   /*variables*/
-
-
   @import "partials/main";
   @import "partials/navbar";
   @import "partials/content";
   @import "partials/forms";
   @import "partials/footer";
+  @import "partials/offcanvas";
+  @import "partials/responsive-tabs";
 }

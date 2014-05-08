@@ -12,11 +12,8 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-    <link href="/css/all.css" rel="stylesheet" type="text/css" />
-        <!--<link href="/css/app.css" rel="stylesheet" type="text/css" />
-    <link href="/css/offcanvas.css" rel="stylesheet" type="text/css" />
-    <link href="/css/responsive-tabs.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />-->
+    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 <body id="page" class="off-canvas slide-nav">
 <div class="row">
@@ -30,7 +27,6 @@
             {% block content %}{# site content here #}{% endblock %}
             {% include 'main/up.html.twig' %}
     </section>
-
 </div>
 <footer>{% include 'layout/footer.html.twig' %}</footer>
 {% block js %}{# script here #}{% endblock %}

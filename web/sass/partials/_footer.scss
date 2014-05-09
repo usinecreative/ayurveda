@@ -1,5 +1,6 @@
 // footer
 footer {
+  position: relative;
   background: url(../images/Forme.png) no-repeat center 20px #4C371A;
   color: #fff;
   text-align: center;
@@ -15,6 +16,24 @@ footer {
     span{
       font-size: 0.7em;
       display: block;
+    }
+  }
+  div{
+    font:normal 0.6em "piron",Georgia, "Times New Roman", Times, serif;
+    background: #302510;
+    text-align: left;
+    color: #5d4928;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding:5px;
+    span{
+      float: right;
+      a{
+        color: #5d4928;
+        text-decoration: none;
+        &:hover{color: #5d4928;}
+      }
     }
   }
 }

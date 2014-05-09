@@ -29,6 +29,7 @@
   }
   ul{
     margin-top: 1.25em;
+    &.orbit-slides-container{margin-top: 0;}
     &.up{
       display: block;
       font:normal 0.8em Georgia, "Times New Roman", Times, serif;

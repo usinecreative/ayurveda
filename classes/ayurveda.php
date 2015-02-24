@@ -34,7 +34,13 @@ class Ayurveda
         $this->silex->register(new Silex\Provider\SwiftmailerServiceProvider());
         $this->silex->register(new Silex\Provider\ValidatorServiceProvider());
         $this->silex->register(new Silex\Provider\SessionServiceProvider(),
-            //test local
+            array('swiftmailer.options'=>array(
+                'host' => 'ns0.ovh.net',
+                'port' => '587',
+                'username' => 'postmaster@ayurveda-concept.com',
+                'password' => 'i6QuqQ8K',
+                'encryption' => null,
+                'auth_mode' => null
             ))
         );
     }
@@ -203,6 +209,14 @@ class Ayurveda
         $this->silex->get('/tarif-massage-lyon', function () use ($app) {
             return $app['twig']->render('main/tarif-massage-lyon.html.twig', array());
         })->bind('tarifmassagelyon');
+
+        $this->silex->get('/fasciatherapie-lyon', function () use ($app) {
+            return $app['twig']->render('main/fasciatherapie-lyon.html.twig', array());
+        })->bind('fasciatherapielyon');
+
+        $this->silex->get('/fascia-lyon', function () use ($app) {
+            return $app['twig']->render('main/fascia-lyon.html.twig', array());
+        })->bind('fascialyon');
 
        $this->silex->get('/error', function () use ($app) {
            return $app['twig']->render('main/error.html.twig', array());

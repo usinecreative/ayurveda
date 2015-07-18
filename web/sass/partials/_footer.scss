@@ -17,6 +17,11 @@ footer {
       font-size: 0.7em;
       display: block;
     }
+    a{
+      color:#fff;
+      text-decoration: none;
+      &:hover, &:active, &:visited{color:#fff; text-decoration: underline; }
+    }
   }
   div{
     font:normal 0.6em "piron",Georgia, "Times New Roman", Times, serif;

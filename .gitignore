@@ -13,3 +13,5 @@ web/.htaccess
 web/boris.xml
 classes/ayurveda.php
 classes/ayurveda.php
+.DS_Store
+web/.DS_Store

@@ -56,6 +56,24 @@ body{
       }
     }
   }
+  table{
+    width: 100%;
+    text-align: center;
+    td{width: 50%}
+    thead{
+      color: #fff;
+      tr{background: #dbbd46;}
+    }
+    tbody{
+      tr{
+        &:nth-child(odd){
+          background: #f1edde;
+        }
+        td{text-align: center;}
+      }
+    }
+
+  }
 }
 #logo{
   display: block;

@@ -4,7 +4,32 @@
 // form "connaitre mon dosha"
 #form_vata, #form_pitta, #form_kapha{
     input{
-      float: left;
       margin: 0 10px;
+      float: right;
+      padding: 0;
+      position: relative;
+      top:15px;
     }
+  label{
+    display: block;
+    padding: 10px;
+    margin: 2px 0 0 0;
+    background:#f1edde;
+  }
+}
+button {
+  border-radius: 25px;
+  background: #dbbd46;
+  border: none;
+  margin: 10px 5px 0 0;
+  padding: 5px 10px;
+  min-width: 100px;
+  font:normal 1.125em "lilly", serif;
+  transition: background 0.5s ease;
+  cursor: pointer;
+  &:hover{background: #e1c553}
+}
+#form_effacer{
+  background: none;
+  border: 1px solid #000;
 }

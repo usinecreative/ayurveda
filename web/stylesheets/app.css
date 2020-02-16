@@ -202,11 +202,10 @@ html header nav ul li a:hover {
 }
 /* line 2, ../sass/partials/_content.scss */
 html #content {
-  /*Homepage*/
   /* homepage */
   /* includes */
 }
-/* line 4, ../sass/partials/_content.scss */
+/* line 3, ../sass/partials/_content.scss */
 html #content #banner {
   background: #dbbd46;
   display: flex;
@@ -214,38 +213,38 @@ html #content #banner {
   color: #fff;
   box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.25);
 }
-/* line 10, ../sass/partials/_content.scss */
+/* line 9, ../sass/partials/_content.scss */
 html #content #banner div {
   max-width: 1100px;
   margin: 0 auto;
 }
-/* line 14, ../sass/partials/_content.scss */
+/* line 13, ../sass/partials/_content.scss */
 html #content #banner article {
   padding: 38px;
   background: #020024;
   background: linear-gradient(155deg, #020024 0%, rgba(9, 9, 121, 0) 0%, rgba(255, 255, 255, 0.39538) 100%);
   min-width: 47%;
 }
-/* line 19, ../sass/partials/_content.scss */
+/* line 18, ../sass/partials/_content.scss */
 html #content #banner article a.btn {
   color: #fff;
   border-color: #fff;
 }
-/* line 25, ../sass/partials/_content.scss */
+/* line 24, ../sass/partials/_content.scss */
 html #content #ban {
   background: url(/images/pattern.png) no-repeat left bottom;
   min-height: 430px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
 }
-/* line 29, ../sass/partials/_content.scss */
+/* line 28, ../sass/partials/_content.scss */
 html #content #ban article {
   padding: 38px 25%;
 }
-/* line 31, ../sass/partials/_content.scss */
+/* line 30, ../sass/partials/_content.scss */
 html #content #ban article a {
   color: #000;
 }
-/* line 34, ../sass/partials/_content.scss */
+/* line 33, ../sass/partials/_content.scss */
 html #content .content {
   max-width: 1100px;
   margin: 60px auto;
@@ -324,8 +323,39 @@ html #content .fb div img {
 }
 /* line 6, ../sass/partials/_forms.scss */
 html #form_vata input, html #form_pitta input, html #form_kapha input {
-  float: left;
   margin: 0 10px;
+  float: right;
+  padding: 0;
+  position: relative;
+  top: 15px;
+}
+/* line 13, ../sass/partials/_forms.scss */
+html #form_vata label, html #form_pitta label, html #form_kapha label {
+  display: block;
+  padding: 10px;
+  margin: 2px 0 0 0;
+  background: #f1edde;
+}
+/* line 20, ../sass/partials/_forms.scss */
+html button {
+  border-radius: 25px;
+  background: #dbbd46;
+  border: none;
+  margin: 10px 5px 0 0;
+  padding: 5px 10px;
+  min-width: 100px;
+  font: normal 1.125em "lilly", serif;
+  transition: background 0.5s ease;
+  cursor: pointer;
+}
+/* line 30, ../sass/partials/_forms.scss */
+html button:hover {
+  background: #e1c553;
+}
+/* line 32, ../sass/partials/_forms.scss */
+html #form_effacer {
+  background: none;
+  border: 1px solid #000;
 }
 /* line 2, ../sass/partials/_footer.scss */
 html footer {

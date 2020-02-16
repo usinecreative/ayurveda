@@ -153,11 +153,11 @@ class Ayurveda
 
         $this->silex->get('/formation-ayurveda', function () use ($app) {
             return $app['twig']->render('main/formation-ayurveda.html.twig', array());
-        })->bind('formation-ayurveda');
+        })->bind('formationayurveda');
 
         $this->silex->get('/calendrier-formation', function () use ($app) {
             return $app['twig']->render('main/calendrier-formation.html.twig', array());
-        })->bind('calendrier-formation');
+        })->bind('calendrierformation');
 
         $this->silex->get('/massage-bienetre', function () use ($app) {
             return $app['twig']->render('main/massage-bienetre.html.twig', array());

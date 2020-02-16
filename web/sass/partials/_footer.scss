@@ -1,44 +1,43 @@
 // footer
 footer {
-  position: relative;
-  background: url(../images/Forme.png) no-repeat center 20px #4C371A;
+  background: url(/images/footer-pattern.png) no-repeat left center #dbbd46;
   color: #fff;
-  text-align: center;
-  padding:20px 0;
-  margin-top: 5px;
-  font:normal 1em "piron",Georgia, "Times New Roman", Times, serif;
-  h6{
-    font:normal 1.2em "piron",Georgia, "Times New Roman", Times, serif;
-    color: #fff;
-  }
-  p{
-    font-size: 0.8em;
-    span{
-      font-size: 0.7em;
-      display: block;
-    }
-    a{
-      color:#fff;
-      text-decoration: none;
-      &:hover, &:active, &:visited{color:#fff; text-decoration: underline; }
-    }
-  }
   div{
-    font:normal 0.6em "piron",Georgia, "Times New Roman", Times, serif;
-    background: #302510;
-    text-align: left;
-    color: #5d4928;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding:5px;
-    span{
-      float: right;
-      a{
-        color: #5d4928;
-        text-decoration: none;
-        &:hover{color: #5d4928;}
+    display: flex;
+    justify-content: space-around;
+    dl{
+      text-align: center;
+      padding-top: 10px;
+      margin: 40px 0;
+      dt{font:normal 1.75em "lilly", serif; text-transform: uppercase}
+      dd{
+        font-size: 1.25em;
+        em{font:200 1em 'Nunito', sans-serif; font-style: italic}
       }
     }
+    nav{
+      display: flex;
+      justify-content: space-between;
+      width: 550px;
+      padding: 20px 0 0 0;
+      ul{
+        padding: 0;
+        li{
+          list-style: none;
+          a{text-decoration: none; font-size: 1.125em; display: inline-block; margin: 10px 0}
+          li{
+            list-style: circle;
+            margin-left: 40px;
+            a{text-decoration: underline; font-size: 0.8em; margin: 0}
+          }
+        }
+      }
+    }
+  }
+  span{display: block;}
+  a{
+    color:#fff;
+    text-decoration: underline;
+    &:hover, &:active, &:visited{color:#fff; text-decoration: none; }
   }
 }

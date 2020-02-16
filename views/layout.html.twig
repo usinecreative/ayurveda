@@ -1,5 +1,5 @@
 {# main layout #}
-{% spaceless %}
+{#% spaceless %#}
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -12,36 +12,28 @@
     ayurveda, espace bien-etre, pratique traditionnelle inde, technique ayurveda, Abyangha, dosha, Pitta, Kapha, Vata,
     alimentation ayurvedique, huiles essentielles, massage huiles essentielles, medicinal, demo massage, demonstration massage,
     salon de massage, technique de massage, massage pierres chaudes" />
-    <meta name="theme-color" content="#f39519">
+    <meta name="theme-color" content="#dbbd46">
     <meta name="verify-v1" content="Az1u8YqgM3r1BMWPvGhmM4oXnnwoa62mka2OtyHt3RI=" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/app.css" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
-<body id="page" class="off-canvas slide-nav">
-<div class="row">
+<body>
+<header>
     {% include 'layout/header.html.twig' %}
-</div>
-<div class="row">
-    <section role="complementary" id="sidebar" >
-        {% include 'layout/nav.html.twig' %}
-    </section>
-    <section role="main" id="content">
-            {% block content %}{# site content here #}{% endblock %}
-            {% include 'main/up.html.twig' %}
-    </section>
-</div>
-<footer>{% include 'layout/footer.html.twig' %}</footer>
+    {% include 'layout/nav.html.twig' %}
+</header>
+<section role="main" id="content">
+      {% block content %}{# site content here #}{% endblock %}
+</section>
+{% include 'layout/footer.html.twig' %}
+
 {% block js %}{# script here #}{% endblock %}
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-4458925-1";
 urchinTracker();
 </script>
 </body>
 </html>
-{% endspaceless %}
+{#% endspaceless %#}

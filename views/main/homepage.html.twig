@@ -1,31 +1,52 @@
 {% extends 'layout.html.twig' %}
 {% block titre %}Ayurveda concept : bien être, relaxation Lyon.{% endblock %}
+
 {% block content %}
-    <h1>Le bien-être par l'<a href="ayurveda">Ayurveda</a></h1>
-    <h2>Bienvenue sur le site Ayurveda concept !!</h2>
-    <p>Musique : Gayatri Mantra - Pranayam Mantra - 2'37</p>
-    <audio controls>
-        <source src="/mp3/Mantra.mp3" />
-        <p class="warning">Le format *.mp3 n'est pas pris en charge par votre navigateur</p>
-    </audio>
-    <h3><a href="ayurveda">A Y U R V E D A</a></h3>
-    <img src="/images/shiva1.jpg" name="img" width="110" height="127" class="right th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>
-    <em>Les grands Rishis du Sri-Lanka, ont perçu les lois fondamentales de la nature qui gèrent la physiologie humaine
-        et sont organisés en un système naturel de beauté, de bien-être et de santé. Ils nous léguent un art de vivre tiré
-        des "Véda", textes vieux de plus de 4000 ans utilisés dans l'Inde ancienne comme antique médecine (mythologie
-        indienne, "Samhita Charaka"). Aujourd’hui l’<strong>Ayurveda</strong> est reconnue par l’Organisation mondiale de la Santé (OMS),
-        dans le monde entier pour son authenticité et son efficacité. Son histoire riche et variée est en grande partie
-        entrelacée avec la mythologie indienne qui prend ses racines dans le « Charaka Samhita » (science ayurvédique)
-        expliquant comment le corps est constitué de cellule  et énumère les 20 organismes microscopiques différents qui
-        peuvent causer les déséquilibres physiologiques.
-    </em><br/><br/>
-    <!--<img src="/images/fb_ban.png"  alt="Conférence bien-être et ayurveda" class="th" />-->
+    <div id="banner">
+        <img src="images/massage.jpg" alt="massage indien, medecine ayuvedique"/>
+        <article>
+            <h1>Ayuveda</h1>
+            <p>Les grands Rishis du Sri-Lanka, ont perçu les lois fondamentales de la nature qui gèrent la physiologie
+                humaine. Art de vivre tiré des "Véda", textes vieux de plus de 4000 ans utilisés dans l'Inde ancienne
+                comme antique médecine (mythologie indienne, "Samhita Charaka"). Aujourd’hui l’Ayurveda est reconnue par
+                l’OMS), dans le monde entier pour son authenticité et son efficacité.
+            </p>
+            <a href="ayurveda" class="btn">En savoir +</a>
+        </article>
+    </div>
+    <div id="ban">
+        <article>
+            <h2>La fasciabioénergie</h2>
+            <p>Le corps imprime, sous forme de nœuds physiques et mentaux, tout ce que l'être humain vit de traumatique.
+                Les nœuds tissulaires créent des blocages qui entraînent douleurs, maux, maladies, problèmes psychosomatiques.
+                Le praticien libère les nœuds tissulaires, donc les blocages et soulage le corps pour un bien-être retrouvé.
+            </p>
+            <a href="" class="btn">En savoir +</a>
+        </article>
+    </div>
+    <div id="blocs">
+        <dl class="gold">
+            <dd><img src="images/icon/formation.png" alt="formation massage ayuvedique lyon"/></dd>
+            <dt>Formations</dt>
+            <dd>Découvez les différents plan de formation proposés</dd>
+            <dd><a href="">En savoir +</a></dd>
+        </dl>
+        <dl>
+            <dd><img src="images/icon/tarifs.png" alt="tarif massage ayuvedique lyon"/></dd>
+            <dt>Tarifs</dt>
+            <dd>Découvrez les forfaits, tarifs, abonnements, réductions </dd>
+            <dd><a href="">En savoir +</a></dd>
+        </dl>
+        <dl>
+            <dd><img src="images/icon/photos.png" alt="photo massage ayuvedique lyon"/></dd>
+            <dt>Photos</dt>
+            <dd>Découvez les différents plan de formation proposés</dd>
+            <dd><a href="">En savoir +</a></dd>
+        </dl>
+    </div>
+
     {% include 'main/facebook.html.twig' %}
-    {% include 'main/ban.html.twig' %}
+
 {% endblock %}
 
-{% block js %}
-    <script src="/js/vendor/jquery.js"></script>
-    <script src="/js/foundation/foundation.js"></script>
-    <script src="/js/foundation/jquery.offcanvas.js"></script>
-{% endblock %}
+{% block js %}{% endblock %}

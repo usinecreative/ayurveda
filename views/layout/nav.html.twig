@@ -1,50 +1,46 @@
 {# nav #}
-<nav role="navigation">
+<nav>
     <ul>
-        <li class="icon-presentation">
-            <h3>Présentation</h3>
+        <li>
+            <a href="">Ayurveda</a>
             <ul>
-                <li><a href="{{ app.url_generator.generate('ayurveda') }}">L'Ayurveda</a></li>
-                <li><a href="{{ app.url_generator.generate('masseurlyon') }}">Identité</a></li>
-            </ul>
-        </li>
-        <li class="icon-ayurveda">
-            <h3>Ayurveda</h3>
-            <ul>
+                <li><a href="{{ app.url_generator.generate('ayurveda') }}">Qu'est-ce que l'Ayurveda?</a></li>
                 <li><a href="{{ app.url_generator.generate('ayurvedalyon') }}">Connaître mon dosha</a></li>
                 <li><a href="{{ app.url_generator.generate('kapha') }}">Kapha /</a><a href="{{ app.url_generator.generate('vata') }}"> Vata /</a><a href="{{ app.url_generator.generate('pitta') }}"> Pitta</a></li>
             </ul>
         </li>
-        <li class="icon-fasciabioenergie">
-            <h3>Fasciabioénergie</h3>
+        <li>
+            <a href="">Fasciabioénergie</a>
             <ul>
                 <li><a href="{{ app.url_generator.generate('fascialyon') }}">Fascia : définition</a></li>
                 <li><a href="{{ app.url_generator.generate('fasciatherapielyon') }}">Fasciathérapie</a></li>
             </ul>
         </li>
-        <li class="icon-tarifs">
-            <h3>Tarifs</h3>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('tarifmassagelyon') }}">Tarifs prestations</a></li>
-                <li><a href="{{ app.url_generator.generate('relaxationlyon') }}">Centre relaxation ayurveda</a></li>
-            </ul>
-        </li>
-        <li class="icon-photos">
-            <h3>Photos</h3>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('massagebienetre') }}">Espace ayurvédique</a></li>
-                <li><a href="{{ app.url_generator.generate('demomassage') }}">Evénementiels</a></li>
-            </ul>
-        </li>
-        <li class="icon-formation">
-            <h3>Formations</h3>
+        <li>
+            <a href="">Formations</a>
             <ul>
                 <li><a href="{{ app.url_generator.generate('formation-ayurveda') }}">Plan de formation</a></li>
                 <li><a href="{{ app.url_generator.generate('calendrier-formation') }}">Calendrier et Tarifs</a></li>
             </ul>
         </li>
-        <li class="icon-contact">
-            <h3>Contact</h3>
+        <li>
+            <a href="">Tarifs</a>
+            <ul>
+                <li><a >Tarifs prestations</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{ app.url_generator.generate('tarifmassagelyon') }}">Photos</a>
+        </li>
+        <li>
+            <a href="">A propos</a>
+            <ul>
+                <li><a href="{{ app.url_generator.generate('masseurlyon') }}">Identité</a></li>
+                <li><a href="{{ app.url_generator.generate('ayurveda') }}">L'Ayurveda</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Contact</a>
             <ul>
                 <li><a href="http://ayurveda-bien-etre.blogspot.fr/" target="_blank"> Livre d'or</a></li>
                 <li><a href="{{ app.url_generator.generate('massagedomicillyon') }}">Laissez moi un message</a></li>

@@ -1,34 +1,26 @@
-//sidebar btn
-a#sidebarButton{
-  display:block;
-  background:url(/images/menu_icon.png) no-repeat center center #60441e;
-  text-decoration: none;
-  font-size: 0.6em;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left:15px;
-  top:113px;
-  border-radius: 30px;
-}
-// canvas menu
-nav{
-  li{
-    list-style: none;
-    line-height: 0;
-    padding-left:55px;
-    height:48px;
-    li{padding-left:0; height:15px; overflow:hidden;}
-    &.icon-presentation, &.icon-ayurveda, &.icon-tarifs, &.icon-photos, &.icon-contact, &.icon-formation, &.icon-fasciabioenergie{
-      margin-bottom: 30px;
-    }
-    a{
-      color:#f32a00;
-      font:normal 0.75em Georgia, "Times New Roman", Times, serif;
-      text-decoration: none;
-      &:hover{
-        color:#f32a00;
-        text-decoration: underline;
+// menu
+header{
+  nav{
+    ul{
+      padding: 0;
+      max-width:1000px;
+      margin: 20px auto;
+      li{
+        list-style: none;
+        padding:0 2%;
+        height:48px;
+        display: inline-block;
+        li{padding-left:0; height:15px; overflow:hidden; display: none}
+        a{
+          color:#000;
+          font:normal 1.125em 'Nunito', sans-serif;
+          text-decoration: none;
+          text-transform: uppercase;
+          &:hover{
+            color:#333;
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

@@ -1,13 +1,9 @@
 body{
-  background:#f39519;
-  font:normal 100% Georgia, "Times New Roman", Times, serif;
+  background:#fff;
+  font:normal 100% 'Nunito', sans-serif;
+  margin: 0; padding:0;
   h1{
-    color:#fff;
-    display: inline-block;
-    border-radius:5px;
-    background-color: #f36306;
-    padding:3px 5px;
-    font:normal 1.2em Georgia, "Times New Roman", Times, serif;
+    font:normal 2.25em "lilly", serif;
     a{
       color: #fff;
       text-decoration: none;
@@ -15,17 +11,7 @@ body{
     }
   }
   h2{
-    border-radius: 5px;
-    background-color: #60441e;
-    box-shadow: inset 0 0 16px rgba(0,0,0,.75);
-    padding:3px 5px;
-    color:#fff;
-    display: table;
-    font:normal 1em Georgia, "Times New Roman", Times, serif;
-    a{
-      color: #fff;
-      &:hover, &:focus{color: #ffe9cb;}
-    }
+    font:normal 2.25em "lilly", serif;
     span{
       color: #00ff55;
       padding-left: 5px;
@@ -33,10 +19,10 @@ body{
   }
   h3{
     color:#302510;
-    font:normal 1em "piron",Georgia, "Times New Roman", Times, serif;
+    font:normal 1em "lilly", serif;
     margin: 0;
   }
-  ul li ul{margin-left: 0}
+  ul li ul, dd{margin-left: 0}
   a{
     color:#302510;
     text-decoration: underline;
@@ -46,10 +32,6 @@ body{
     }
   }
   header{
-    background:url(/images/Bulles.png) no-repeat center top;
-    text-align: center;
-    padding-bottom:30px;
-    margin-top: 5px;
     h1{
       color:#302510;
       display:block;
@@ -62,19 +44,37 @@ body{
     }
     p{
       color:#fff;
-      font:normal 0.8em "piron",Georgia, "Times New Roman", Times, serif;
+      font:normal 0.8em 'Nunito', sans-serif;
       margin-bottom: 5px;
     }
     a{
-      color:#302510;
-      font:normal 0.8em "piron",Georgia, "Times New Roman", Times, serif;
       text-decoration: none;
       &:hover,
       &:focus {
-        color:#302510;
+        color:#000;
         text-decoration: underline;
       }
     }
   }
+}
+#logo{
+  display: block;
+  margin: 70px auto;
+  width: 486px;
+}
+.btn{
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 5px 10px;
+  font:normal 1.125em "lilly", serif;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.copyright{
+  font:normal 0.8em 'Nunito', sans-serif;
+  color: #666;
+  text-align: right;
+  padding: 20px;
 }
 

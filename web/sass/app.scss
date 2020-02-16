@@ -1,33 +1,8 @@
-// Global Foundation Settings
-@import "settings";
 
-// Comment out this import if you don't want to use normalize
-//@import "normalize";
-
-// Comment out this import if you are customizing you imports below
-@import "foundation";
-//var orbit custo
-$orbit-container-bg: #f39519;
-@import "foundation/components/orbit";
-@import "foundation/components/reveal";
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,400&display=swap');
 @import "compass/css3";
-//var table custo
-$table-bg: #f39519;
-$table-even-row-bg: #ff7e00;
-$table-border-color: #60441e;
-$table-head-bg: #60441e;
-$table-head-font-color: #fff;
-@import "foundation/components/tables";
+@include font-face("lilly", font-files("/fonts/Lilly__.woff"));
 
-
-
-@include font-face(
-    "piron", font-files("/fonts/tfpironv2-webfont.eot",
-    "/fonts/tfpironv2-webfont.woff",
-    "/fonts/tfpironv2-webfont.ttf",
-    "/fonts/tfpironv2-webfont.eot?#iefix",
-    "/fonts/tfpironv2-webfont.svg#piron_v2_regular")
-);
 
 @import "compass/utilities/sprites";
 @import "icon/*.png";
@@ -40,6 +15,5 @@ html{
   @import "partials/content";
   @import "partials/forms";
   @import "partials/footer";
-  @import "partials/offcanvas";
   @import "partials/responsive-tabs";
 }

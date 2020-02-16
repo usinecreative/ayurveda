@@ -489,7 +489,7 @@ html #content .r-tabs li.r-tabs-tab {
 }
 /* line 6, ../sass/partials/_responsive-tabs.scss */
 html #content .r-tabs li.r-tabs-state-active {
-  border-bottom: 1px solid #f39519;
+  border-bottom: 1px solid #fff;
 }
 /* line 7, ../sass/partials/_responsive-tabs.scss */
 html #content .r-tabs .r-tabs-panel {

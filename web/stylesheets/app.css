@@ -78,14 +78,14 @@ html body h2 {
   font: normal 2.25em "lilly", serif;
 }
 /* line 15, ../sass/partials/_main.scss */
-html body h2 span {
-  color: #00ff55;
+html body h2 a {
+  color: #000;
   padding-left: 5px;
 }
 /* line 20, ../sass/partials/_main.scss */
 html body h3 {
-  color: #302510;
-  font: normal 1em "lilly", serif;
+  color: #000;
+  font: normal 1.5em "lilly", serif;
   margin: 0;
 }
 /* line 25, ../sass/partials/_main.scss */
@@ -94,13 +94,13 @@ html body ul li ul, html body dd {
 }
 /* line 26, ../sass/partials/_main.scss */
 html body a {
-  color: #302510;
+  color: #4267b2;
   text-decoration: underline;
 }
 /* line 29, ../sass/partials/_main.scss */
 html body a:hover, html body a:active, html body a:focus {
   text-decoration: none;
-  color: #302510;
+  color: #4267b2;
 }
 /* line 35, ../sass/partials/_main.scss */
 html body header h1 {
@@ -151,6 +151,23 @@ html .copyright {
   text-align: right;
   padding: 20px;
 }
+/* line 80, ../sass/partials/_main.scss */
+html .left {
+  margin-right: 1em;
+  float: left !important;
+}
+/* line 84, ../sass/partials/_main.scss */
+html .right {
+  margin-left: 1em;
+  float: right !important;
+}
+/* line 88, ../sass/partials/_main.scss */
+html .th {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
 /* line 4, ../sass/partials/_navbar.scss */
 html header nav ul {
   padding: 0;
@@ -186,6 +203,7 @@ html header nav ul li a:hover {
 /* line 2, ../sass/partials/_content.scss */
 html #content {
   /*Homepage*/
+  /* homepage */
   /* includes */
 }
 /* line 4, ../sass/partials/_content.scss */
@@ -206,30 +224,41 @@ html #content #banner article {
   padding: 38px;
   background: #020024;
   background: linear-gradient(155deg, #020024 0%, rgba(9, 9, 121, 0) 0%, rgba(255, 255, 255, 0.39538) 100%);
+  min-width: 47%;
 }
-/* line 18, ../sass/partials/_content.scss */
+/* line 19, ../sass/partials/_content.scss */
 html #content #banner article a.btn {
   color: #fff;
   border-color: #fff;
 }
-/* line 24, ../sass/partials/_content.scss */
+/* line 25, ../sass/partials/_content.scss */
 html #content #ban {
   background: url(/images/pattern.png) no-repeat left bottom;
-  height: 430px;
+  min-height: 430px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
 }
-/* line 28, ../sass/partials/_content.scss */
+/* line 29, ../sass/partials/_content.scss */
 html #content #ban article {
   padding: 38px 25%;
 }
-/* line 32, ../sass/partials/_content.scss */
+/* line 31, ../sass/partials/_content.scss */
+html #content #ban article a {
+  color: #000;
+}
+/* line 34, ../sass/partials/_content.scss */
+html #content .content {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding-bottom: 40px;
+}
+/* line 40, ../sass/partials/_content.scss */
 html #content #blocs {
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
   margin: 60px auto;
 }
-/* line 37, ../sass/partials/_content.scss */
+/* line 45, ../sass/partials/_content.scss */
 html #content #blocs dl {
   box-shadow: 1px 1px 6px -3px #404040;
   text-align: center;
@@ -237,59 +266,59 @@ html #content #blocs dl {
   padding: 40px;
   margin: 20px;
 }
-/* line 43, ../sass/partials/_content.scss */
+/* line 51, ../sass/partials/_content.scss */
 html #content #blocs dl dt {
   color: #dbbd46;
   font: normal 2.25em "lilly", serif;
   margin: 20px 0;
 }
-/* line 48, ../sass/partials/_content.scss */
+/* line 56, ../sass/partials/_content.scss */
 html #content #blocs dl dd {
   color: #333;
 }
-/* line 50, ../sass/partials/_content.scss */
+/* line 58, ../sass/partials/_content.scss */
 html #content #blocs dl dd a {
   color: #4267b2;
   font: normal 1.25em "lilly", serif;
   display: inline-block;
   margin-top: 30px;
 }
-/* line 57, ../sass/partials/_content.scss */
+/* line 65, ../sass/partials/_content.scss */
 html #content #blocs dl.gold {
   background: #dbbd46;
   background: linear-gradient(155deg, #dbbd46 0%, #dbbd46 52%, #ffffff 100%);
 }
-/* line 60, ../sass/partials/_content.scss */
+/* line 68, ../sass/partials/_content.scss */
 html #content #blocs dl.gold dt {
   color: #fff;
 }
-/* line 65, ../sass/partials/_content.scss */
+/* line 73, ../sass/partials/_content.scss */
 html #content .fb {
   background: #4267b2;
   height: 85px;
   color: #fff;
   margin: 40px auto;
 }
-/* line 70, ../sass/partials/_content.scss */
+/* line 78, ../sass/partials/_content.scss */
 html #content .fb div {
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
 }
-/* line 75, ../sass/partials/_content.scss */
+/* line 83, ../sass/partials/_content.scss */
 html #content .fb div p {
   font: normal 1.75em "lilly", serif;
   margin: 20px 0 0 0;
 }
-/* line 79, ../sass/partials/_content.scss */
+/* line 87, ../sass/partials/_content.scss */
 html #content .fb div a {
   color: #fff;
   display: inline-block;
   margin: 25px 20px 0 0;
   font-size: 1.5em;
 }
-/* line 85, ../sass/partials/_content.scss */
+/* line 93, ../sass/partials/_content.scss */
 html #content .fb div img {
   margin-top: -28px;
 }

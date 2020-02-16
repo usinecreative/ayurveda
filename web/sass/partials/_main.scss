@@ -12,23 +12,23 @@ body{
   }
   h2{
     font:normal 2.25em "lilly", serif;
-    span{
-      color: #00ff55;
+    a{
+      color: #000;
       padding-left: 5px;
     }
   }
   h3{
-    color:#302510;
-    font:normal 1em "lilly", serif;
+    color:#000;
+    font:normal 1.5em "lilly", serif;
     margin: 0;
   }
   ul li ul, dd{margin-left: 0}
   a{
-    color:#302510;
+    color:#4267b2;
     text-decoration: underline;
     &:hover, &:active, &:focus{
       text-decoration: none;
-      color:#302510;
+      color:#4267b2;
     }
   }
   header{
@@ -77,4 +77,19 @@ body{
   text-align: right;
   padding: 20px;
 }
+.left {
+  margin-right: 1em;
+  float: left !important;
+}
+.right {
+  margin-left: 1em;
+  float: right !important;
+}
+.th {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+}
+
 

@@ -15,6 +15,7 @@
       padding: 38px;
       background: rgb(2,0,36);
       background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 0%, rgba(255,255,255,0.39537821964723385) 100%);
+      min-width: 47%;
       a.btn{
         color: #fff;
         border-color: #fff;
@@ -23,12 +24,19 @@
   }
   #ban{
     background: url(/images/pattern.png) no-repeat left bottom;
-    height: 430px;
+    min-height: 430px;
     box-shadow: 0 0 16px rgba(0,0,0,.25);
     article{
       padding: 38px 25%;
+      a{color:#000}
     }
   }
+  .content{
+    max-width: 1100px;
+    margin: 60px auto;
+    padding-bottom: 40px;
+  }
+  /* homepage */
   #blocs{
     display: flex;
     justify-content: space-between;

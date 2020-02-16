@@ -153,13 +153,17 @@ html body table tbody tr:nth-child(odd) {
 html body table tbody tr td {
   text-align: center;
 }
-/* line 78, ../sass/partials/_main.scss */
+/* line 77, ../sass/partials/_main.scss */
+html body iframe {
+  min-width: 683px;
+}
+/* line 79, ../sass/partials/_main.scss */
 html #logo {
   display: block;
   margin: 70px auto;
   width: 486px;
 }
-/* line 83, ../sass/partials/_main.scss */
+/* line 84, ../sass/partials/_main.scss */
 html .btn {
   display: inline-block;
   border-radius: 25px;
@@ -169,24 +173,24 @@ html .btn {
   text-decoration: none;
   margin-top: 30px;
 }
-/* line 92, ../sass/partials/_main.scss */
+/* line 93, ../sass/partials/_main.scss */
 html .copyright {
   font: normal 0.8em 'Nunito', sans-serif;
   color: #666;
   text-align: right;
   padding: 20px;
 }
-/* line 98, ../sass/partials/_main.scss */
+/* line 99, ../sass/partials/_main.scss */
 html .left {
   margin-right: 1em;
   float: left !important;
 }
-/* line 102, ../sass/partials/_main.scss */
+/* line 103, ../sass/partials/_main.scss */
 html .right {
   margin-left: 1em;
   float: right !important;
 }
-/* line 106, ../sass/partials/_main.scss */
+/* line 107, ../sass/partials/_main.scss */
 html .th {
   line-height: 0;
   display: inline-block;

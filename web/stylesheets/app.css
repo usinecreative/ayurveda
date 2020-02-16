@@ -71,7 +71,7 @@ html body h1 a {
 }
 /* line 10, ../sass/partials/_main.scss */
 html body h1 a:hover, html body h1 a:focus {
-  color: #ffe9cb;
+  color: #fff;
 }
 /* line 13, ../sass/partials/_main.scss */
 html body h2 {

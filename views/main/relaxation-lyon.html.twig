@@ -2,28 +2,38 @@
 
 {% block titre %}Ayurveda concept : centre relaxation ayurveda, bien etre Lyon{% endblock %}
 {% block content %}
-    <h1>Centre relaxation AYURVEDA</h1>
-    <p><strong>Institut La Bellezza,</strong><br/>
-        Avenue Pratifori, 8<br/>
-        1950 Sion<br/><br/>
-        <strong>Horaire :</strong> 9h00 - 20h00 du Lundi au samedi.<br/>
-        Uniquement sur RDV
-    </p>
-    <h2>Pour me joindre : <strong><a onclick="location.href=dolink(this.title); return false;" title="ayurveda.concept..åt..gmail.com" href="#">Cliquez ici !</a></strong></h2>
-    <p>Pour rester à votre service dans le cadre de votre Bien Etre et la Relaxation.<br/>
-        <strong>TOUTES LES SEANCES SONT UNIQUEMENT SUR RENDEZ-VOUS DU :</p>
+    <div id="banner">
+        <img src="/images/lotus.jpg" alt="massage indien, medecine ayuvedique"/>
+        <article>
+            <h1>Centre relaxation AYURVEDA</h1>
+            <p><strong>Horaire :</strong> </p>
             <ul>
-                <li>- du Lundi au vendredi de 11H00 à 20H00,</li>
-                <li>- Le samedi de 14h00 à 20h00*</li>
+                <li>du Lundi au vendredi de 11H00 à 20H00,</li>
+                <li>Le samedi de 14h00 à 20h00*</li>
+            </ul>
+            <p>Uniquement sur RDV</p>
+            <p>Pour me joindre : <br/><a class="btn" onclick="location.href=dolink(this.title); return false;" title="ayurveda.concept..åt..gmail.com" href="#">Cliquez ici !</a></p>
+        </article>
+    </div>
+    <div id="ban">
+        <article>
+            <h2>Pour rester à votre service dans le cadre de votre Bien Etre et la Relaxation.</h2>
+            <p>TOUTES LES SEANCES SONT UNIQUEMENT SUR RENDEZ-VOUS DU :</p>
+            <ul>
+                <li>du Lundi au vendredi de 11H00 à 20H00,</li>
+                <li>Le samedi de 14h00 à 20h00*</li>
             </ul>
             <em>*En fonction de mes disponibilités. Pour toute annulation, prévoir
                 de m’en informer 2 jours à l’avance. Merci de votre compréhension !</em>
-    <hr/>
-    <hr/>
-    <p>Je ne peux qu’attirer votre attention, une fois de plus, sur les bienfaits de l'Ayurveda, vous avez été heureux de
-        les ressentir au cours de séances pratiquées. Ils agissent fortement sur notre psychisme et notre corps, et
-        permettent de :</p>
-    <img src="/images/Shiva-39.jpg" height="134" width="100" class="right th" alt="massage, zen, relxant, lyon, 69" />
+        </article>
+    </div>
+
+    <article class="content">
+        <img src="/images/Shiva-39.jpg" height="134" width="100" class="right" alt="massage, zen, relxant, lyon, 69" />
+        <p>Je ne peux qu’attirer votre attention, une fois de plus, sur les bienfaits de l'Ayurveda, vous avez été heureux de
+            les ressentir au cours de séances pratiquées. Ils agissent fortement sur notre psychisme et notre corps, et
+            permettent de :</p>
+
         <ul>
             <li>« relâcher » les tensions nerveuses</li>
             <li>atténuer les tensions psychologiques</li>
@@ -39,7 +49,10 @@
             <li>permettre une bonne régulation du métabolisme (augmente la production de globules blancs et des anticorps)</li>
             <li>renforcer le système immunitaire et le défendre contre toutes agressions intérieures (virus-bactérie -etc.).</li>
         </ul>
-        {% include 'main/facebook.html.twig' %}
+    </article>
+
+    {% include 'main/facebook.html.twig' %}
+
 {% endblock %}
 
 

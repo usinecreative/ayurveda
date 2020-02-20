@@ -2,36 +2,47 @@
 {% import _self as forms %}
 {% block titre %}Massage ayurveda à domicil, contact masseur Ayurveda Rhône-alpes.{% endblock %}
 {% block content %}
-    <h1>Contact</h1>
-    <p>Vous remarquerez en visitant mon site et les photos que je me déplace dans diverses lieux pour des animations
-        démonstration-massage ayurvédic. <br />
-    Je veux développer de plus en plus ce concept d'une part pour amener une animation et aussi un concept évenementiel
-        qui cadre bien avec différente ambiance que ce soit dans :</p>
-    <img src="/images/ayurveda_berkeley_ayurvedic.gif" class="right th" alt="demonstration, massage, lyon, 69, ayurveda" />
-    <ul>
-        <li> les bars, les pubs, clubs privés,</li>
-        <li> restaurants-terrasse, complexes détentes,</li>
-        <li> salons bio et bien Etre, saunas,</li>
-        <li> soirées privées, soirées anniversaires,</li>
-        <li> comités d'entreprises.</li>
-    </ul>
-    <p>d'autre part permettre à tous de cotoyer de près le Bien Etre dans sa globalité. Donc je vous invite à me contacter
-        quelques soit le projet mis en place pour ce type d'animations.</p>
-    <h2>Une question? un rendez-vous? Contactez-moi</h2>
-    {% for message in app.session.getFlashBag.get('message') %}
-        {{ message }}
-    {% endfor %}
-    {{ form_start(form) }}
-        <fieldset>
-            {{ form_label(form.Nom) }}
-            {{ form_widget(form.Nom, { 'attr': {'placeholder': 'Nom / Prénom' } }) }}
-            {{ form_label(form.email) }}
-            {{ form_widget(form.email, { 'attr': {'placeholder': 'Email' } }) }}
-            {{ form_label(form.message) }}
-            {{ form_widget(form.message, { 'attr': {'placeholder': 'Votre message' } }) }}
-            {{ form_widget(form.Envoyer) }}
-        </fieldset>
-    {{ form_end(form) }}
+    <div id="banner">
+        <img src="/images/contact.jpg" alt="massage indien, medecine ayuvedique"/>
+        <article>
+            <h1>Contact</h1>
+            {% for message in app.session.getFlashBag.get('message') %}
+                {{ message }}
+            {% endfor %}
+            {{ form_start(form) }}
+            <fieldset>
+                {{ form_label(form.Nom) }}
+                {{ form_widget(form.Nom, { 'attr': {'placeholder': 'Nom / Prénom' } }) }}
+                {{ form_label(form.email) }}
+                {{ form_widget(form.email, { 'attr': {'placeholder': 'Email' } }) }}
+                {{ form_label(form.message) }}
+                {{ form_widget(form.message, { 'attr': {'placeholder': 'Votre message' } }) }}
+                {{ form_widget(form.Envoyer) }}
+            </fieldset>
+            {{ form_end(form) }}
+        </article>
+    </div>
+    <div id="ban">
+        <article>
+            <h2>Une question? un rendez-vous? Contactez-moi</h2>
+            <p>Vous remarquerez en visitant mon site et les photos que je me déplace dans diverses lieux pour des animations
+                démonstration-massage ayurvédic. <br />
+                Je veux développer de plus en plus ce concept d'une part pour amener une animation et aussi un concept évenementiel
+                qui cadre bien avec différente ambiance que ce soit dans :</p>
+            <ul>
+                <li> les bars, les pubs, clubs privés,</li>
+                <li> restaurants-terrasse, complexes détentes,</li>
+                <li> salons bio et bien Etre, saunas,</li>
+                <li> soirées privées, soirées anniversaires,</li>
+                <li> comités d'entreprises.</li>
+            </ul>
+            <p>d'autre part permettre à tous de cotoyer de près le Bien Etre dans sa globalité. Donc je vous invite à me contacter
+                quelques soit le projet mis en place pour ce type d'animations.</p>
+        </article>
+    </div>
+
+
+
     {% include 'main/facebook.html.twig' %}
 {% endblock %}
 {% block js %}

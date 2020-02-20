@@ -1,5 +1,26 @@
-// forms globals
-
+// contact form
+#banner{
+  fieldset{
+    border:none;
+    label{display: none}
+    input{
+      min-width:400px;
+      border:none;
+      padding:10px 20px;
+      margin-bottom: 10px;
+    }
+    textarea{
+      border:none;
+      min-width:400px;
+      font:normal 0.725em 'Nunito', sans-serif;
+      padding:10px 20px;
+      min-height: 80px;
+    }
+    #form_Envoyer{
+      min-width:440px;
+    }
+  }
+}
 
 // form "connaitre mon dosha"
 #form_vata, #form_pitta, #form_kapha{

@@ -353,7 +353,34 @@ html #content .fb div a {
 html #content .fb div img {
   margin-top: -28px;
 }
+/* line 3, ../sass/partials/_forms.scss */
+html #banner fieldset {
+  border: none;
+}
+/* line 5, ../sass/partials/_forms.scss */
+html #banner fieldset label {
+  display: none;
+}
 /* line 6, ../sass/partials/_forms.scss */
+html #banner fieldset input {
+  min-width: 400px;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+/* line 12, ../sass/partials/_forms.scss */
+html #banner fieldset textarea {
+  border: none;
+  min-width: 400px;
+  font: normal 0.725em 'Nunito', sans-serif;
+  padding: 10px 20px;
+  min-height: 80px;
+}
+/* line 19, ../sass/partials/_forms.scss */
+html #banner fieldset #form_Envoyer {
+  min-width: 440px;
+}
+/* line 27, ../sass/partials/_forms.scss */
 html #form_vata input, html #form_pitta input, html #form_kapha input {
   margin: 0 10px;
   float: right;
@@ -361,14 +388,14 @@ html #form_vata input, html #form_pitta input, html #form_kapha input {
   position: relative;
   top: 15px;
 }
-/* line 13, ../sass/partials/_forms.scss */
+/* line 34, ../sass/partials/_forms.scss */
 html #form_vata label, html #form_pitta label, html #form_kapha label {
   display: block;
   padding: 10px;
   margin: 2px 0 0 0;
   background: #f1edde;
 }
-/* line 20, ../sass/partials/_forms.scss */
+/* line 41, ../sass/partials/_forms.scss */
 html button {
   border-radius: 25px;
   background: #dbbd46;
@@ -380,11 +407,11 @@ html button {
   transition: background 0.5s ease;
   cursor: pointer;
 }
-/* line 30, ../sass/partials/_forms.scss */
+/* line 51, ../sass/partials/_forms.scss */
 html button:hover {
   background: #e1c553;
 }
-/* line 32, ../sass/partials/_forms.scss */
+/* line 53, ../sass/partials/_forms.scss */
 html #form_effacer {
   background: none;
   border: 1px solid #000;

@@ -3,11 +3,15 @@
 {% block titre %}Ayurveda Rhône-alpes, Bien être, relaxation.{% endblock %}
 {% block content %}
     {% for message in app.session.getFlashBag.get('message') %}
-        <h1>Oup's !</h1>
-        <p>{{ message }}</p>
-        <hr/>
-        <p>Utilisez le menu à gauche pour naviguer sur le site,<br/>
-        ou <a href="/">cliquez ici</a> pour revenir sur la page d'accueil.</p>
+        <div id="banner">
+            <img src="/images/zen.jpg" alt="massage indien, medecine ayuvedique"/>
+            <article>
+                <h1>Oup's !</h1>
+                <p>{{ message }} </p>
+                <a href="{{ app.url_generator.generate('homepage') }}" class="btn">Revenir sur la page d'accueil</a>
+            </article>
+        </div>
+
     {% endfor %}
 {% endblock %}
 {% block js %}

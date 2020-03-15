@@ -29,19 +29,19 @@
             <dd><img src="/images/icon/formation.png" alt="formation massage ayuvedique lyon"/></dd>
             <dt>Formations</dt>
             <dd>Découvez les différents plan de formation proposés</dd>
-            <dd><a href="formation-ayurveda">En savoir +</a></dd>
+            <dd><a href="{{ app.url_generator.generate('formationayurveda') }}">En savoir +</a></dd>
         </dl>
         <dl>
             <dd><img src="/images/icon/tarifs.png" alt="tarif massage ayuvedique lyon"/></dd>
             <dt>Tarifs</dt>
             <dd>Découvrez les forfaits, tarifs, abonnements, réductions </dd>
-            <dd><a href="tarif-massage-lyon">En savoir +</a></dd>
+            <dd><a href="{{ app.url_generator.generate('tarifmassagelyon') }}">En savoir +</a></dd>
         </dl>
         <dl>
             <dd><img src="/images/icon/photos.png" alt="photo massage ayuvedique lyon"/></dd>
-            <dt>Photos</dt>
-            <dd>Découvez les différents plan de formation proposés</dd>
-            <dd><a href="relaxation-lyon">En savoir +</a></dd>
+            <dt>Relaxation</dt>
+            <dd>Retrouvez ici les infos pratiques</dd>
+            <dd><a href="{{ app.url_generator.generate('relaxationlyon') }}">En savoir +</a></dd>
         </dl>
     </div>
 

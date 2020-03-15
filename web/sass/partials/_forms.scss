@@ -2,23 +2,24 @@
 #banner{
   fieldset{
     border:none;
-    max-width: 50%;
+    width: 100%;
     label{display: none}
     input{
-      min-width:400px;
+      width:90%;
       border:none;
       padding:10px 20px;
       margin-bottom: 10px;
     }
     textarea{
       border:none;
-      min-width:400px;
+      width:90%;
       font:normal 0.725em 'Nunito', sans-serif;
       padding:10px 20px;
       min-height: 80px;
     }
     #form_Envoyer{
-      min-width:440px;
+      width: 95%;
+      margin: 10px auto;
     }
   }
 }

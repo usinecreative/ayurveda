@@ -1,21 +1,28 @@
 // menu
 header{
   nav{
+    text-align: center;
     ul{
       padding: 0;
       max-width:1000px;
       margin: 20px auto;
       li{
         list-style: none;
-        padding:0 2%;
+        padding:0 20px;
         height:48px;
         display: inline-block;
+        @media only screen and (max-width:995px){
+          padding:0 5px;
+        }
         li{padding-left:0; height:15px; overflow:hidden; display: none}
         a{
           color:#000;
           font:normal 1.125em 'Nunito', sans-serif;
           text-decoration: none;
           text-transform: uppercase;
+          @media only screen and (max-width:995px){
+            font:normal 1em 'Nunito', sans-serif;
+          }
           &:hover{
             color:#333;
             text-decoration: underline;

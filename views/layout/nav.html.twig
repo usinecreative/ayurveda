@@ -2,43 +2,25 @@
 <nav>
     <ul>
         <li>
-            <a href="#">Ayurveda</a>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('ayurveda') }}">Qu'est-ce que l'Ayurveda?</a></li>
-                <li><a href="{{ app.url_generator.generate('ayurvedalyon') }}">Connaître mon dosha</a></li>
-                <li><a href="{{ app.url_generator.generate('kapha') }}">Kapha /</a><a href="{{ app.url_generator.generate('vata') }}"> Vata /</a><a href="{{ app.url_generator.generate('pitta') }}"> Pitta</a></li>
-            </ul>
+            <a href="{{ app.url_generator.generate('homepage') }}">Accueil</a>
         </li>
         <li>
-            <a href="#">Fasciabioénergie</a>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('fascialyon') }}">Fascia : définition</a></li>
-                <li><a href="{{ app.url_generator.generate('fasciatherapielyon') }}">Fasciathérapie</a></li>
-            </ul>
+            <a href="{{ app.url_generator.generate('ayurveda') }}">Ayurveda</a>
         </li>
         <li>
-            <a href="#">Formations</a>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('formationayurveda') }}">Plan de formation</a></li>
-                <li><a href="{{ app.url_generator.generate('calendrierformation') }}">Calendrier et Tarifs</a></li>
-            </ul>
+            <a href="{{ app.url_generator.generate('fascialyon') }}">Fasciabioénergie</a>
+        </li>
+        <li>
+            <a href="{{ app.url_generator.generate('formationayurveda') }}">Formations</a>
         </li>
         <li>
             <a href="{{ app.url_generator.generate('tarifmassagelyon') }}">Tarifs</a>
         </li>
         <li>
-            <a href="#">A propos</a>
-            <ul>
-                <li><a href="{{ app.url_generator.generate('masseurlyon') }}">Identité</a></li>
-                <li><a href="{{ app.url_generator.generate('relaxationlyon') }}">Centre de relaxation</a></li>
-            </ul>
+            <a href="{{ app.url_generator.generate('masseurlyon') }}">A propos</a>
         </li>
         <li>
-            <a href="#">Contact</a>
-            <ul>
-                <li><a href="http://ayurveda-bien-etre.blogspot.fr/" target="_blank"> Livre d'or</a></li>
-                <li><a href="{{ app.url_generator.generate('massagedomicillyon') }}">Laissez moi un message</a></li>
-            </ul>
+            <a href="{{ app.url_generator.generate('massagedomicillyon') }}">Contact</a>
         </li>
     </ul>
 </nav>

@@ -5,6 +5,7 @@ footer {
   div{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     dl{
       text-align: center;
       padding-top: 10px;
@@ -12,14 +13,16 @@ footer {
       dt{font:normal 1.75em "lilly", serif; text-transform: uppercase}
       dd{
         font-size: 1.25em;
-        em{font:200 1em 'Nunito', sans-serif; font-style: italic}
+        em{font:200 1em 'Nunito', sans-serif; font-style: italic;
+          color: #fff;}
       }
     }
     nav{
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
       width: 550px;
-      padding: 20px 0 0 0;
+      padding: 20px;
       ul{
         padding: 0;
         li{

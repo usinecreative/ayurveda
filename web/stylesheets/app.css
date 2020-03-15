@@ -292,38 +292,42 @@ html #content #banner {
   color: #fff;
   box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.25);
 }
+/* line 9, ../sass/partials/_content.scss */
+html #content #banner h2 {
+  font: normal 1.5em "lilly", verdana, serif;
+}
 @media only screen and (max-width: 900px) {
   /* line 3, ../sass/partials/_content.scss */
   html #content #banner {
     flex-wrap: wrap;
   }
 }
-/* line 12, ../sass/partials/_content.scss */
+/* line 13, ../sass/partials/_content.scss */
 html #content #banner iframe {
   width: 50%;
 }
 @media only screen and (max-width: 900px) {
-  /* line 12, ../sass/partials/_content.scss */
+  /* line 13, ../sass/partials/_content.scss */
   html #content #banner iframe {
     width: 100%;
   }
 }
-/* line 18, ../sass/partials/_content.scss */
+/* line 19, ../sass/partials/_content.scss */
 html #content #banner img {
   width: 50%;
 }
 @media only screen and (max-width: 900px) {
-  /* line 18, ../sass/partials/_content.scss */
+  /* line 19, ../sass/partials/_content.scss */
   html #content #banner img {
     width: 100%;
   }
 }
-/* line 24, ../sass/partials/_content.scss */
+/* line 25, ../sass/partials/_content.scss */
 html #content #banner div {
   max-width: 1100px;
   margin: 0 auto;
 }
-/* line 28, ../sass/partials/_content.scss */
+/* line 29, ../sass/partials/_content.scss */
 html #content #banner article {
   padding: 38px;
   background: #020024;
@@ -332,47 +336,47 @@ html #content #banner article {
   min-width: 50%;
 }
 @media only screen and (max-width: 900px) {
-  /* line 28, ../sass/partials/_content.scss */
+  /* line 29, ../sass/partials/_content.scss */
   html #content #banner article {
     max-width: 100%;
     width: 100%;
   }
 }
-/* line 37, ../sass/partials/_content.scss */
+/* line 38, ../sass/partials/_content.scss */
 html #content #banner article a {
   color: #fff;
 }
-/* line 39, ../sass/partials/_content.scss */
+/* line 40, ../sass/partials/_content.scss */
 html #content #banner article a .btn {
   border-color: #fff;
 }
-/* line 45, ../sass/partials/_content.scss */
+/* line 46, ../sass/partials/_content.scss */
 html #content #ban {
   background: url(/images/pattern.png) no-repeat left bottom;
   min-height: 430px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
 }
-/* line 49, ../sass/partials/_content.scss */
+/* line 50, ../sass/partials/_content.scss */
 html #content #ban article {
   padding: 38px 25%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 49, ../sass/partials/_content.scss */
+  /* line 50, ../sass/partials/_content.scss */
   html #content #ban article {
     padding: 38px 10%;
   }
 }
-/* line 54, ../sass/partials/_content.scss */
+/* line 55, ../sass/partials/_content.scss */
 html #content #ban article a {
   color: #000;
 }
-/* line 57, ../sass/partials/_content.scss */
+/* line 58, ../sass/partials/_content.scss */
 html #content .content {
   max-width: 1100px;
   margin: 60px auto;
   padding: 0 20px 40px 20px;
 }
-/* line 65, ../sass/partials/_content.scss */
+/* line 66, ../sass/partials/_content.scss */
 html #content #blocs {
   display: flex;
   justify-content: space-between;
@@ -380,12 +384,12 @@ html #content #blocs {
   margin: 60px auto;
 }
 @media only screen and (max-width: 900px) {
-  /* line 65, ../sass/partials/_content.scss */
+  /* line 66, ../sass/partials/_content.scss */
   html #content #blocs {
     flex-wrap: wrap;
   }
 }
-/* line 73, ../sass/partials/_content.scss */
+/* line 74, ../sass/partials/_content.scss */
 html #content #blocs dl {
   box-shadow: 1px 1px 6px -3px #404040;
   text-align: center;
@@ -394,45 +398,45 @@ html #content #blocs dl {
   margin: 20px;
 }
 @media only screen and (max-width: 900px) {
-  /* line 73, ../sass/partials/_content.scss */
+  /* line 74, ../sass/partials/_content.scss */
   html #content #blocs dl {
     width: 100%;
   }
 }
-/* line 82, ../sass/partials/_content.scss */
+/* line 83, ../sass/partials/_content.scss */
 html #content #blocs dl dt {
   color: #dbbd46;
   font: normal 2.25em "lilly", serif;
   margin: 20px 0;
 }
-/* line 87, ../sass/partials/_content.scss */
+/* line 88, ../sass/partials/_content.scss */
 html #content #blocs dl dd {
   color: #333;
 }
-/* line 89, ../sass/partials/_content.scss */
+/* line 90, ../sass/partials/_content.scss */
 html #content #blocs dl dd a {
   color: #4267b2;
   font: normal 1.25em "lilly", serif;
   display: inline-block;
   margin-top: 30px;
 }
-/* line 96, ../sass/partials/_content.scss */
+/* line 97, ../sass/partials/_content.scss */
 html #content #blocs dl.gold {
   background: #dbbd46;
   background: linear-gradient(155deg, #dbbd46 0%, #dbbd46 52%, #ffffff 100%);
 }
-/* line 99, ../sass/partials/_content.scss */
+/* line 100, ../sass/partials/_content.scss */
 html #content #blocs dl.gold dt {
   color: #fff;
 }
-/* line 104, ../sass/partials/_content.scss */
+/* line 105, ../sass/partials/_content.scss */
 html #content .fb {
   background: #4267b2;
   height: 85px;
   color: #fff;
   margin: 40px auto;
 }
-/* line 109, ../sass/partials/_content.scss */
+/* line 110, ../sass/partials/_content.scss */
 html #content .fb div {
   display: flex;
   justify-content: space-between;
@@ -440,30 +444,30 @@ html #content .fb div {
   margin: 0 auto;
 }
 @media only screen and (max-width: 740px) {
-  /* line 109, ../sass/partials/_content.scss */
+  /* line 110, ../sass/partials/_content.scss */
   html #content .fb div {
     justify-content: space-around;
   }
 }
-/* line 117, ../sass/partials/_content.scss */
+/* line 118, ../sass/partials/_content.scss */
 html #content .fb div p {
   font: normal 1.75em "lilly", serif;
   margin: 20px 0 0 0;
 }
 @media only screen and (max-width: 740px) {
-  /* line 117, ../sass/partials/_content.scss */
+  /* line 118, ../sass/partials/_content.scss */
   html #content .fb div p {
     display: none;
   }
 }
-/* line 124, ../sass/partials/_content.scss */
+/* line 125, ../sass/partials/_content.scss */
 html #content .fb div a {
   color: #fff;
   display: inline-block;
   margin: 25px 20px 0 0;
   font-size: 1.5em;
 }
-/* line 130, ../sass/partials/_content.scss */
+/* line 131, ../sass/partials/_content.scss */
 html #content .fb div img {
   margin-top: -28px;
 }

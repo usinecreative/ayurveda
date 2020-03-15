@@ -218,6 +218,10 @@ class Ayurveda
             return $app['twig']->render('main/fascia-lyon.html.twig', array());
         })->bind('fascialyon');
 
+        $this->silex->get('/mentions-ayurveda', function () use ($app) {
+                    return $app['twig']->render('main/mentions-ayurveda.html.twig', array());
+                })->bind('mentionsayurveda');
+
        $this->silex->get('/error', function () use ($app) {
            return $app['twig']->render('main/error.html.twig', array());
         })->bind('error');

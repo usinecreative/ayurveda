@@ -58,7 +58,7 @@ class Ayurveda
             return $app['twig']->render('main/ayurveda.html.twig', array());
         })->bind('ayurveda');
 
-        $this->silex->match('/ayurveda-lyon', function (Request $request) use ($app) {
+        $this->silex->match('/ayurveda-martinique', function (Request $request) use ($app) {
             $form = $app['form.factory']->createBuilder('form')
                 ->add('vata', 'choice', array(
                     'choices' => array('Etes-vous trés grand, trés petit ou mince?', 'Votre stature est-elle légére ou étroite?',
@@ -135,7 +135,7 @@ class Ayurveda
             return $app['twig']->render('main/demo-massage.html.twig', array());
         })->bind('demomassage');
 
-        $this->silex->get('/espace-ayurveda-lyon', function () use ($app) {
+        $this->silex->get('/espace-ayurveda-martinique', function () use ($app) {
             return $app['twig']->render('main/espace-ayurveda-lyon.html.twig', array());
         })->bind('espaceayurvedalyon');
 
@@ -163,7 +163,7 @@ class Ayurveda
             return $app['twig']->render('main/massage-bienetre.html.twig', array());
         })->bind('massagebienetre');
 
-        $this->silex->match('/massage-domicil-lyon', function (Request $request) use ($app) {
+        $this->silex->match('/massage-domicil-martinique', function (Request $request) use ($app) {
             $form = $app['form.factory']->createBuilder('form')
                 ->add('Nom')
                 ->add('email', 'email')
@@ -190,7 +190,7 @@ class Ayurveda
 
                    $app['mailer']->send($message);
                    $app['session']->getFlashBag()->add('message', 'Merci pour votre message et à bientôt !');
-                   return $app->redirect('/massage-domicil-lyon', 301);
+                   return $app->redirect('/massage-domicil-martinique', 301);
                }
             }
             // display the form
@@ -198,23 +198,23 @@ class Ayurveda
 
         })->bind('massagedomicillyon');
 
-        $this->silex->get('/masseur-lyon', function () use ($app) {
+        $this->silex->get('/masseur-martinique', function () use ($app) {
             return $app['twig']->render('main/masseur-lyon.html.twig', array());
         })->bind('masseurlyon');
 
-        $this->silex->get('/relaxation-lyon', function () use ($app) {
+        $this->silex->get('/relaxation-martinique', function () use ($app) {
             return $app['twig']->render('main/relaxation-lyon.html.twig', array());
         })->bind('relaxationlyon');
 
-        $this->silex->get('/tarif-massage-lyon', function () use ($app) {
+        $this->silex->get('/tarif-massage-martinique', function () use ($app) {
             return $app['twig']->render('main/tarif-massage-lyon.html.twig', array());
         })->bind('tarifmassagelyon');
 
-        $this->silex->get('/fasciatherapie-lyon', function () use ($app) {
+        $this->silex->get('/fasciatherapie-martinique', function () use ($app) {
             return $app['twig']->render('main/fasciatherapie-lyon.html.twig', array());
         })->bind('fasciatherapielyon');
 
-        $this->silex->get('/fascia-lyon', function () use ($app) {
+        $this->silex->get('/fascia-martinique', function () use ($app) {
             return $app['twig']->render('main/fascia-lyon.html.twig', array());
         })->bind('fascialyon');
 

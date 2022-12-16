@@ -1,6 +1,6 @@
 {% extends 'layout.html.twig' %}
 
-{% block titre %}Lyon Ayurveda Lyon, massage Abyangha.{% endblock %}
+{% block titre %}Martinique Ayurveda Martinique, massage Abyangha.{% endblock %}
 {% block content %}
     <div id="banner">
         <img src="/images/tajmahal.jpg" alt="massage indien, medecine ayuvedique"/>
@@ -10,7 +10,7 @@
                 <strong>"VEDA"</strong> signifie <strong>CONNAISSANCE, SCIENCE</strong><br /><br />
                 <strong>L'AYURVEDA</strong> est donc la connaissance de la vie.
             </p>
-            <a href="ayurveda-lyon" class="btn">Test : Connaître mon dosha</a>
+            <a href="{{ app.url_generator.generate('ayurvedalyon') }}" class="btn">Test : Connaître mon dosha</a>
         </article>
     </div>
     <div id="ban">
@@ -33,7 +33,7 @@
     </div>
     <article class="content">
         <h3>Qu'est ce que le massage ABYANGHA ?</h3>
-        <p><img src="/images/inde.gif" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>
+        <p><img src="/images/inde.gif" class="left th" alt="massage, ayurveda, massage, Martinique"/>
             <strong>L'Abyangha</strong> est un massage holistique réunissant dans sa pratique les dimensions psychique, émotionnelles,
             énergétiques et physiologiques.<br  /><br  />
             Il se pratique avec des <strong>huiles essentielles chaudes</strong> spécifiques à la constitution de l'individu et à pour but d'éliminer
@@ -50,7 +50,7 @@
             Par les bienfaits des massages Ayurvédic, ces accumulations néfastes sont progressivement expulsées et laissent
             place à <strong>l'APAISEMENT - LA DETENTE - LA VITALITE - LA RELAXATION donc un BIEN ÊTRE GLOBAL.</strong></p>
         <h3>Les bienfaits curatifs du massage</h3>
-        <p><img src="/images/shema2.jpg" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>
+        <p><img src="/images/shema2.jpg" class="left th" alt="massage, ayurveda, massage, Martinique"/>
             La vie moderne est devenue d’une certaine manière très oisive. La plupart des citadins ne font que peu de travail physique.
             Les exigences de leurs métiers ne leur permettent pas de participer à des activités qui sollicitent leurs muscles. </p>
         <p>En outre, ils jouissent peu du plein air, d’aliments naturels, de la lumière du soleil : aussi leur organisme connaît-il
@@ -60,7 +60,7 @@
         <p>Le massage régulier, fait même seulement une ou deux fois par semaine, empêche le développement de nombreux troubles
             cutanés comme l’eczéma, les cloques,  les croûtes et la séborrhée. Il accroît aussi l’endurance, la patience, la
             confiance en soi, l’intelligence, la vitalité sexuelle et la beauté physique.</p>
-        <p><img src="/images/shema1.jpg"  class="right th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>
+        <p><img src="/images/shema1.jpg"  class="right th" alt="massage, ayurveda, massage, Martinique"/>
             Le massage est utilisé thérapeutiquement pour la  neurasthénie, les maux de tête, l’insomnie, la goutte, la polio,
             l’obésité, l’arthrite, la tension irrégulière, l’asthme et les troubles mentaux. Il augmente la production de globules
             blancs et d’anticorps, ce qui procure une résistance contres les virus et maladies causés par l’infection.</p>
@@ -75,11 +75,13 @@
             <li>RAJAS (<a href="vata">Vata</a>) représente l'action et le mouvement</li>
             <li>TAMA (<a href="kapha">Kapha</a>) représente l'inertie voir une force qui s'oppose aux deux autres responsable de la jalousie, l'égoïsme,  fainéantise, l'avarie.</li>
         </ul>
-        <p><img src="/images/kat_ayurveda.gif" class="left th" alt="massage, ayurveda, massage, lyon, 69, rhone-alpes"/>Quand le massage fait l’objet d’une pratique quotidienne, il donne des bienfaits agréables. La chaleur corporelle et
+        <p><img src="/images/kat_ayurveda.gif" class="left th" alt="massage, ayurveda, massage, Martinique"/>Quand le massage fait l’objet d’une pratique quotidienne, il donne des bienfaits agréables. La chaleur corporelle et
             la vitalité augmentent à mesure que les systèmes circulatoire et respiratoire s’ouvrent pour fournir de l’oxygène frais
             et de l’énergie vitale sous forme d’éléments nutritifs. En même temps, les gaz et les toxines sont éliminés de l’organisme.</p>
+        <div style="clear: both; padding-top: 3rem">
+            <h3>L’ayurveda, science de la vie sri lankaise (vidéo)</h3>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/g87wddnAjkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
     </article>
-
 
 {% endblock %}
 {% block js %}
